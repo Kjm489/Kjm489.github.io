@@ -20,6 +20,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-The license does not grant permission to use the avatar and background images located at [https://github.com/Kjm489/Kjm489.github.io/blob/main/Images/kjmowl.jpg/kjm2.jpeg] which are the exclusive property of Kjm489 - Dr. Kevin Moore.
-
 For more information about the MIT License, please visit: https://opensource.org/licenses/MIT
