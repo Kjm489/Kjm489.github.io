@@ -30,7 +30,7 @@ Thank you for your interest in my professional story.
 
 This portfolio is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt).
 
-Additional Notes are found in [Notes](Notes.txt)
+Additional Notes are found in [Notes](Notes.txt) file.
 
 Additional notices are found in the
     [NOTICE](https://github.com/Kjm489/Kjm489.github.io/blob/main/NOTICE.txt) file.
