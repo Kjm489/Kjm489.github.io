@@ -5,7 +5,7 @@
 
 Hello! I'm Dr. Kevin Moore, a passionate Consultant & Educator with a love for Education, Linguistics, Oncology, and OSINT I enjoy working on various projects and exploring new technologies to expand my skills and knowledge.
 
-## Why Create Your Portfolio?
+## Why Create My Portfolio?
 
 Having a portfolio is a great way to showcase your work, skills, and experience. Here are some reasons why having a portfolio is important:
 
