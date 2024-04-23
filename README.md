@@ -26,3 +26,6 @@ Having a portfolio is a great way to showcase your work, skills, and experience.
 
 This portfolio is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt).
 
+Additional notices are found in the
+    [NOTICE] (NOTICE) file.
+
