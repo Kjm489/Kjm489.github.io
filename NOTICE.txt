@@ -15,9 +15,6 @@ The avatar and background images located at:
 
 are the exclusive property of Kjm489 • Dr. Kevin Moore and are not subject to the MIT License. These images may not be used, copied, modified, or distributed without explicit written permission from the copyright holder.
 
-ADDITIONAL ATTRIBUTIONS:
-
-[If there are third-party components or libraries included in your project, you would acknowledge them here, along with their licenses.]
 
 END OF NOTICE
 
