@@ -4,7 +4,7 @@
 
 Hello! I'm Dr. Kevin Moore, a passionate Consultant & Educator with a love for Education, Linguistics, Oncology, and OSINT I enjoy working on various projects and exploring new technologies to expand my skills and knowledge.
 
-Hello and thank you for taking the time to explore my work. My portfolio is a curated showcase of my professional journey, highlighting the skills and experiences that define my career. 
+Thank you for taking the time to explore my work. My portfolio is a curated showcase of my professional journey, highlighting the skills and experiences that define my career. 
 
 **Why This Portfolio Matters:**
 
