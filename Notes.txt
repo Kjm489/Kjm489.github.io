@@ -1,4 +1,5 @@
 <!-• Note: the urls can be self-created by yourself - Upload any image to image folder for avatar and background - Next copy and paste the link in the coding in the avatar and background sections etc. -->
+<!-• Fixed issues with scaling and iphone fitting. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
