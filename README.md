@@ -27,5 +27,5 @@ Having a portfolio is a great way to showcase your work, skills, and experience.
 This portfolio is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt).
 
 Additional notices are found in the
-    [NOTICE](NOTICE) file.
+    [NOTICE](https://github.com/Kjm489/Kjm489.github.io/blob/main/NOTICE.txt) file.
 
