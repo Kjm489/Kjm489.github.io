@@ -13,7 +13,8 @@ The avatar and background images located at:
 • [https://github.com/Kjm489/Kjm489.github.io/blob/main/Images/kjmowl.jpg]
 • [https://github.com/Kjm489/Kjm489.github.io/blob/main/Images/kjm2.jpeg]
 
-Are the exclusive property of Kjm489 • Dr. Kevin Moore and are not subject to the MIT License. These images may not be used, copied, modified, or distributed without explicit written permission from the copyright holder.
+Are the exclusive property of Kjm489 • Dr. Kevin Moore and are not subject to the MIT License. 
+These images may not be used, copied, modified, or distributed without explicit written permission from the copyright holder.
 
 
 END OF NOTICE
