@@ -23,7 +23,7 @@ Thank you for your interest in my professional story.
 
 ## Contact Me
 
-• Email: kjm489@km-consultant.pro
+• Email: director@iconsult-services.com
 • Personal Website: Dr. Kevin Moore [Personal](https://kjm489.github.io)
 
 ## License
