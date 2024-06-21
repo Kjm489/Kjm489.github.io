@@ -1,101 +1,185 @@
-<!-• See Additional Notes in my text file along with my README and NOTICE-->
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Kevin Moore</title>
-    <link rel="shortcut icon" type="Images/png" href="Images/favicon.png"/>
+    <title>Dr. Kevin Moore - Consultant, Educator, Researcher</title>
+    <link rel="shortcut icon" type="image/png" href="Images/favicon.png" />
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+        /* Global reset */
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            background: url('https://github.com/Kjm489/Kjm489.github.io/blob/main/Images/kjm2.jpg?raw=true') no-repeat center center;
-            background-size: cover;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            text-align: center;
         }
+
+        /* Body styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #000000;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Container styles */
         .container {
-            max-width: 960px;
+            max-width: 800px;
             margin: auto;
-            padding: 50px;
-            background: rgba(255, 255, 255, 0.8);
-            border-radius: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
             text-align: left;
         }
+
+        /* Avatar styles */
         .avatar {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            margin: 20px auto;
+            margin: 0 auto 20px;
             display: block;
+            border: 4px solid #04A8C8;
         }
-        .contact-info, .contact-buttons, footer, .container h2 {
-            text-align: left;
+
+        /* Heading styles */
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 10px;
         }
+
+        /* Subheading styles */
+        .lead {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        /* Section heading styles */
+        h2 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #04A8C8;
+            padding-bottom: 5px;
+        }
+
+        /* Paragraph styles */
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        /* List styles */
+        ul {
+            margin-bottom: 20px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        ul li:before {
+            content: "\2022";
+            color: #04A8C8;
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Button styles */
         .button {
             display: inline-block;
             padding: 10px 20px;
             margin: 5px;
             border: none;
             border-radius: 5px;
-            background: #333;
             color: #fff;
             text-decoration: none;
             font-size: 16px;
             cursor: pointer;
+            transition: background-color 0.3s ease;
         }
+
+        .email {
+            background-color: #000000;
+        }
+
+        .orcid {
+            background-color: #a6ce39;
+        }
+
+        .github {
+            background-color: #24292e;
+        }
+
+        .profile {
+            background-color: #04A8C8;
+        }
+
         .button:hover {
-            background: #555;
+            opacity: 0.8;
         }
-        .email { background-color: #000000; }
-        .orcid { background-color: #a6ce39; }
-        .github { background-color: #24292e; }
-        .profile { background-color: #04A8C8; }
+
+        /* Footer styles */
         footer {
             margin-top: 30px;
             padding: 20px;
-            color: white;
+            color: #fff;
+            background-color: #333;
             text-align: center;
+            border-radius: 8px;
+        }
+
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <img src="https://github.com/Kjm489/Kjm489.github.io/blob/main/Images/kjm3.jpg?raw=true" class="avatar">
+        <img src="https://raw.githubusercontent.com/Kjm489/Kjm489.github.io/main/Images/kjm3.jpg" alt="Dr. Kevin Moore" class="avatar">
         <h1>Dr. Kevin Moore</h1>
-        <p>Consultant • Educator • Researcher</p>
-        
-        <!-• Biography -->
+        <p class="lead">Consultant â¢ Educator â¢ Researcher</p>
+
+        <!-- Introduction -->
+        <h2>Professional Profile</h2>
+        <p>I am Dr. Kevin Moore, dedicated to leveraging education, research, and innovation to foster global advancements in healthcare and education.</p>
+
+        <!-- Biography -->
         <h2>Biography</h2>
-        <p>Welcome to my bio page. I am Kevin Moore, and I am honored to share my journey and expertise in the realm of global education and business. With over 20 years of experience, I have dedicated my career to advancing educational practices and fostering international collaboration.</p>
-        <p>I hold a Ph.D. in Education with a TESOL minor from the European Global School • University in France, along with master's degrees in Social Sciences and TESOL from prestigious institutions. My academic background has laid a strong foundation for my work in specialized language instruction, particularly in the field of medical English within the pharmaceutical sector.</p>
-        <p>During my tenure at Chengdu Medical University in China, I made significant contributions to the development of medical English programs. Additionally, I dedicated five years of service to Mianyang Teachers College and Southwest Petroleum University in Chengdu, further honing my expertise in English language training and educational practices.</p>
-        <p>Beyond the classroom, my research extends to the scientific community, where I have conducted impactful studies on cancer cells. As an active member of the Endocrine Society, I have contributed to advancing knowledge in hormonal systems and endocrine-related conditions. My
-diverse experiences in both academic and scientific communities have positioned me at the intersection of language education and medical sciences.</p>
-        <p>Fluency in English, Mandarin Chinese, German, Hebrew, and Vietnamese has been instrumental in my success in spearheading international student exchanges and online education initiatives. My linguistic capabilities have enabled me to foster educational
-innovation and enhance global understanding across linguistic, financial, and security disciplines.</p>
-        <p>In the ever-evolving field of healthcare communication, I stay connected with leading minds in medicine and research through my membership with DocMatter, a collaborative community that fosters clinical dialogue and innovation.
-Additionally, I am an engaged member of various professional organizations, reflecting my dedication to international collaboration and interdisciplinary
-research.</p>
-        <p>Thank you for visiting my website. I look forward to continuing to contribute to the fields of education, language instruction, and medical sciences, and to fostering global understanding through my work.</p>
-        <!-• Services -->
+        <p>Welcome to my profile. With a Ph.D. in Education and a minor in TESOL from the European Global School, my career spans over two decades of impactful contributions in education and medical research.</p>
+        <p>My journey includes pioneering medical English programs at Chengdu Medical University and contributing to oncological research. I have a passion for bridging linguistic barriers in healthcare and advancing educational practices globally.</p>
+
+        <!-- Services -->
         <h2>Services</h2>
         <ul>
-            <li>Educational Consultation</li>
-            <li>Endocrinology Consultation</li>
-            <li>Financial Intelligence Analysis</li>
-            <li>Linguistic Services</li>
-            <li>Oncology Research & Consultation</li>
-            <li>OSINT Research</li>
-            <li>TESOL Training & Development</li>
+            <li><strong>Financial Data Analysis:</strong> Analyzing financial data, generating reports, and implementing risk management strategies.</li>
+            <li><strong>Research Services:</strong> Utilizing Open Source Intelligence (OSINT) for insights in linguistics, oncology, and strategic medical partnerships.</li>
+            <li><strong>Writing Services:</strong> Crafting attention-grabbing resumes, powerful reference letters, and impeccable thesis/dissertations.</li>
+            <li><strong>Educational Consultation:</strong> Prepare for college admissions and exams like IELTS and OET, certified in OET Knowledge.</li>
         </ul>
-        
-        <!-• Skills -->
+
+        <!-- Affiliations -->
+        <h2>Affiliations</h2>
+        <p>Member of DocMatter, the Endocrine Society, IACA, and ICOS, driving collaborative efforts in medical research and education.</p>
+
+        <!-- Vision -->
+        <h2>Vision</h2>
+        <p>My vision is to merge research, education, and innovation to create positive impacts on global healthcare and education outcomes.</p>
+
+        <!-- Skills -->
         <h2>Skills</h2>
         <ul>
             <li>Data Analysis</li>
@@ -104,26 +188,37 @@ research.</p>
             <li>Critical Thinking</li>
             <li>Teaching and Training</li>
             <li>Cross-Cultural Competence</li>
-            <li>Intelligence Analysis</li> 
+            <li>Intelligence Analysis</li>
             <li>Medical Terminology</li>
             <li>Financial Modeling</li>
         </ul>
-        
-        <!-• Contact -->
+
+        <!-- Info Section -->
+        <h2>Info</h2>
+        <ul>
+            <li><a href="https://www.credly.com/badges/c267d873-79ef-4e05-9389-643b15ae2482/embedded" target="_blank" rel="noopener noreferrer">FIS Badge</a></li>
+            <li><a href="https://www.egs.edu.eu" target="_blank" rel="noopener noreferrer">EGS University</a></li>
+            <li><a href="https://www.usm.my" target="_blank" rel="noopener noreferrer">USM University</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer">FAQ</a></li>
+        </ul>
+
+        <!-- Contact -->
         <h2>Contact</h2>
         <div class="contact-info">
-            <p></p>
+            <p>Reach out to me via email or connect with me on professional networks:</p>
         </div>
         <div class="contact-buttons">
             <a href="mailto:director@iconsult-services.com" class="button email">Email</a>
             <a href="https://orcid.org/0009-0009-0992-8474" class="button orcid">ORCID</a>
             <a href="https://github.com/Kjm489" class="button github">GitHub</a>
             <a href="https://iconsult-services.com" class="button profile">Profile</a>
-        </div>  
+        </div>
     </div>
+
+    <!-- Footer -->
     <footer>
-        <p>© Kevin Moore 2024</p>
+        <p>Â© Kevin Moore 2024</p>
     </footer>
 </body>
-</html>
 
+</html>
