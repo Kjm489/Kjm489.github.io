@@ -18,9 +18,12 @@
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            background-color: #000000;
             color: #333;
             text-align: center;
+            background-color: #000000;
+            background-image: url("https://raw.githubusercontent.com/Kjm489/Kjm489.github.io/main/Images/kjm2.jpg"); /* Background image path */
+            background-size: cover;
+            background-repeat: no-repeat;
             padding: 20px;
         }
 
@@ -28,7 +31,7 @@
         .container {
             max-width: 800px;
             margin: auto;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.8); /* Transparent white background for content */
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 30px;
@@ -144,6 +147,13 @@
         footer p {
             margin: 0;
         }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+        }
     </style>
 </head>
 
@@ -216,7 +226,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>© Kevin Moore 2024</p>
+        <p>Copyright &copy Kevin Moore 2024</p>
     </footer>
 </body>
 
