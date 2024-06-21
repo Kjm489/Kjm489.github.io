@@ -36,7 +36,6 @@ Additional notices are found in the
     [NOTICE](https://github.com/Kjm489/Kjm489.github.io/blob/main/NOTICE.txt) file.
 
 ## FAQ
-Please see Frequently Asked Questions
 
 Summary
 
