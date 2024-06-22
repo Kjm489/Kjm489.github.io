@@ -26,6 +26,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             padding: 20px;
+            position: relative; /* Ensure relative positioning for absolute elements */
         }
 
         /* Container styles */
@@ -39,6 +40,7 @@
             padding: 30px;
             text-align: left;
             overflow: hidden; /* Ensures content doesn't overflow */
+            position: relative; /* Ensure relative positioning for absolute elements */
         }
 
         /* Avatar styles */
@@ -160,7 +162,11 @@
 
         /* Credly badge iframe */
         .credly-badge {
-            margin-bottom: 30px;
+            margin: 0 auto; /* Center horizontally */
+            max-width: 100%; /* Ensure it doesn't overflow container */
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px; /* Optional: Adjust spacing */
         }
 
         /* Contact section adjustments */
@@ -170,8 +176,10 @@
 
         .contact-buttons {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
+            position: absolute;
+            bottom: 20px; /* Adjust the distance from the bottom as needed */
+            width: 100%; /* Full width of the container */
         }
 
         .contact-buttons .button {
@@ -243,21 +251,20 @@
         <!-- Contact -->
         <h2>Contact</h2>
         <div class="contact-info">
-            <p>Reach out to me via email or connect with me on professional networks:</p>
+            <p>Reach out to me via email or connect with me on my social profiles:</p>
         </div>
         <div class="contact-buttons">
-            <a href="mailto:director@iconsult-services.com" class="button email">Email</a>
-            <a href="https://orcid.org/0009-0009-0992-8474" class="button orcid">ORCID</a>
-            <a href="https://github.com/Kjm489" class="button github">GitHub</a>
-            <a href="https://iconsult-services.com" class="button profile">Profile</a>
-
+            <a href="mailto:kevinmoore@example.com" class="button email">Email</a>
+            <a href="https://orcid.org/0000-0002-1825-0097" class="button orcid" target="_blank" rel="noopener noreferrer">ORCID</a>
+            <a href="https://github.com/Kjm489" class="button github" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
     </div>
 
     <!-- Footer -->
     <footer>
-        <p>Copyright &copy; Kevin Moore 2024</p>
+        <p>Copyright &copy; 2024 Dr. Kevin Moore. All rights reserved.</p>
     </footer>
 </body>
 
 </html>
+
