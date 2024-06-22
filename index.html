@@ -177,13 +177,13 @@
         .contact-buttons {
             display: flex;
             justify-content: center;
-            position: absolute;
-            bottom: 20px; /* Adjust the distance from the bottom as needed */
-            width: 100%; /* Full width of the container */
+            flex-wrap: wrap; /* Ensure buttons wrap on smaller screens */
+            gap: 10px; /* Adjust spacing between buttons */
+            margin-top: 10px; /* Add space between text and buttons */
         }
 
         .contact-buttons .button {
-            margin: 5px;
+            /* margin: 5px;  (remove margin here to adjust with flex-gap instead) */
         }
     </style>
 </head>
@@ -263,10 +263,8 @@
 
     <!-- Footer -->
     <footer>
-        <p>Copyright &copy; 2024 Dr. Kevin Moore. All rights reserved.</p>
+        <p>Copyright &copy; 2024 Kevin Moore.</p>
     </footer>
 </body>
 
 </html>
-
-
