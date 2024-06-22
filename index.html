@@ -1,3 +1,6 @@
+Certainly! To ensure the contact information and buttons remain within the visible area of the `.container` even after adding the Credly badge, we'll adjust the layout and styling. Here's the revised HTML and CSS:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,6 +41,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 30px;
             text-align: left;
+            overflow: hidden; /* Ensures content doesn't overflow */
         }
 
         /* Avatar styles */
@@ -161,6 +165,21 @@
         .credly-badge {
             margin-bottom: 30px;
         }
+
+        /* Contact section adjustments */
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .contact-buttons .button {
+            margin: 5px;
+        }
     </style>
 </head>
 
@@ -231,7 +250,7 @@
         </div>
         <div class="contact-buttons">
             <a href="mailto:director@iconsult-services.com" class="button email">Email</a>
-            <a href="https://orcid.org/0009-0009-0992-8474" class="button orcid">ORCID</a>
+            <a href="https://orcid.org/0009-0009-0992-8474" class="button
             <a href="https://github.com/Kjm489" class="button github">GitHub</a>
             <a href="https://iconsult-services.com" class="button profile">Profile</a>
         </div>
