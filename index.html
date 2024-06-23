@@ -32,11 +32,21 @@
             background-repeat: no-repeat;
             padding: 20px;
             position: relative; /* Ensure relative positioning for absolute elements */
+            animation: slideBackground 60s linear infinite alternate; /* Background image animation */
+        }
+
+        @keyframes slideBackground {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 100% 0;
+            }
         }
 
         /* Container styles */
         .container {
-            max-width: 800px;
+            max-width: 90%;
             margin: auto;
             background-color: rgba(255, 255, 255, 0.8);
             /* Transparent white background for content */
@@ -46,6 +56,13 @@
             text-align: left;
             overflow: hidden; /* Ensures content doesn't overflow */
             position: relative; /* Ensure relative positioning for absolute elements */
+            transition: max-width 0.5s ease; /* Smooth transition for width changes */
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                max-width: 800px; /* Adjust to the original max-width on larger screens */
+            }
         }
 
         /* Avatar styles */
