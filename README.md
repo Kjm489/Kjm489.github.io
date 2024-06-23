@@ -122,7 +122,7 @@ Yes, in addition to writing services, I offer editing and proofreading services 
 
  
 
-## Frequently Asked Questions (FAQ) - Online Tutoring Sessions
+## (FAQ) - Online Tutoring Sessions
 
 Q: What platform do you use for online tutoring sessions?
 A: I conduct online tutoring sessions through either MS Teams or Zoom, based on the preference of the student.
