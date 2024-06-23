@@ -24,7 +24,7 @@ Thank you for your interest in my professional story.
 ## Contact Me
 
 • Email: kjm489@km-consultant.pro
-• Personal Website: Dr. Kevin Moore [Personal](https://kjm489.github.io)
+• Personal Website: Dr. Kevin Moore [Personal](https://km-consultant.pro)
 
 ## License
 
