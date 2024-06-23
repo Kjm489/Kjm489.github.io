@@ -10,12 +10,13 @@ This software contains work that is licensed under the MIT License. You can find
 
 EXCEPTIONS:
 
-The avatar and background images located at:
+The avatar and located at:
 • [https://github.com/Kjm489/Kjm489.github.io/blob/main/Images/kjm3.jpg]
-• [https://github.com/Kjm489/Kjm489.github.io/blob/main/Images/kjm2.jpeg]
 
 Are the exclusive property of Kjm489 • Dr. Kevin Moore and are not subject to the MIT License. 
 These images may not be used, copied, modified, or distributed without explicit written permission from the copyright holder.
+
+Background Image currently used on this site is sourced from the royalty-free platform-Unsplash for illustrative purposes only. The site owner does not claim ownership of this image but uses them in good faith for informational and aesthetic enhancement.
 
 
 END OF NOTICE
