@@ -35,9 +35,7 @@ Additional Notes are found in [Notes](Notes.txt) file.
 Additional notices are found in the
     [NOTICE](https://github.com/Kjm489/Kjm489.github.io/blob/main/NOTICE.txt) file.
 
-## FAQ
-
-Summary
+## FAQ Summary
 
 1. Consultation Services: 
 Personalized consultation services are available to assist prospective students with program selection, academic planning, and career guidance related to European Global School University and Universiti Sains Malaysia.
@@ -50,6 +48,7 @@ Payment transactions for university programs are processed securely through WISE
 
 4. Schedule a Consultation: 
 Schedule a consultation to gain insights, guidance, and support for navigating the programs offered by the universities. Contact directly through the platform or provided contact information.
+
 
 ## Asked Questions
 
@@ -99,7 +98,7 @@ My initial consultation services are typically free of charge. However, for more
 
  
 
-Writing Services:
+## Writing Services (FAQ)
 
 1. Do you offer writing services related to academic work or applications?
 
@@ -123,7 +122,7 @@ Yes, in addition to writing services, I offer editing and proofreading services 
 
  
 
-Frequently Asked Questions (FAQ) - Online Tutoring Sessions
+## Frequently Asked Questions (FAQ) - Online Tutoring Sessions
 
 Q: What platform do you use for online tutoring sessions?
 A: I conduct online tutoring sessions through either MS Teams or Zoom, based on the preference of the student.
