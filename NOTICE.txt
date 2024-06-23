@@ -10,7 +10,7 @@ This software contains work that is licensed under the MIT License. You can find
 
 EXCEPTIONS:
 
-The avatar and located at:
+The avatar located at:
 • [https://github.com/Kjm489/Kjm489.github.io/blob/main/Images/kjm3.jpg]
 
 Are the exclusive property of Kjm489 • Dr. Kevin Moore and are not subject to the MIT License. 
