@@ -51,7 +51,7 @@ Payment transactions for university programs are processed securely through WISE
 4. Schedule a Consultation: 
 Schedule a consultation to gain insights, guidance, and support for navigating the programs offered by the universities. Contact directly through the platform or provided contact information.
 
-Asked Questions:
+## Asked Questions
 
 1.  What is your role as a consultant representative for European Global School University and Universiti Sains Malaysia?
 
