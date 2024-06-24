@@ -6,7 +6,7 @@ Hello! I'm Dr. Kevin Moore, a passionate Consultant & Educator with a love for E
 
 Thank you for taking the time to explore my work. My portfolio is a curated showcase of my professional journey, highlighting the skills and experiences that define my career. 
 
-**Why This Portfolio Matters:**
+## Why This Portfolio Matters
 
 **Skill Showcase:** Each project is a testament to my capabilities and expertise, carefully chosen to demonstrate what I can do.
   
