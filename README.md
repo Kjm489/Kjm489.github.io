@@ -52,47 +52,47 @@ Schedule a consultation to gain insights, guidance, and support for navigating t
 
 ## Asked Questions
 
-1.  What is your role as a consultant representative for European Global School University and Universiti Sains Malaysia?
+Q: What is your role as a consultant representative for European Global School University and Universiti Sains Malaysia?
 
 As a consultant representative, I provide information and guidance regarding the programs offered by European Global School University and Universiti Sains Malaysia.
 
-2. Are the courses listed under available courses actual courses that I can enroll in?
+Q: Are the courses listed under available courses actual courses that I can enroll in?
 
 No, the courses listed under available courses are for informational purposes only. They do not represent actual courses that you can enroll in through this platform.
 
-3. How can I get more information about the programs offered by European Global School University and Universiti Sains Malaysia?
+Q: How can I get more information about the programs offered by European Global School University and Universiti Sains Malaysia?
 
 You can contact me directly through this platform for more information about the programs offered by European Global School University and Universiti Sains Malaysia.
 
-4. How are payment transactions processed for the programs offered by the universities?
+Q: How are payment transactions processed for the programs offered by the universities?
 
 Payment transactions for the programs offered by the universities are processed through WISE (Web Integrated Services Environment), a secure online payment platform.
 
-5. What is WISE and is it safe to use for online transactions?
+Q: What is WISE and is it safe to use for online transactions?
 
 WISE is a secure online payment platform that ensures the safety and security of your transactions. It is safe to use for online payments related to the programs offered by the universities.
 
-6. Can I enroll in courses directly through this platform?
+Q: Can I enroll in courses directly through this platform?
 
 No, you cannot enroll in courses directly through this platform. Please contact me for further assistance and guidance on enrolling in the programs offered by the universities.
 
-7. Do you offer any personalized consulting services for prospective students?
+Q: Do you offer any personalized consulting services for prospective students?
 
 Yes, I offer personalized consulting services to help prospective students navigate the programs offered by European Global School University and Universiti Sains Malaysia.
 
-8. How can I schedule a consultation with you?
+Q: How can I schedule a consultation with you?
 
 You can schedule a consultation with me by sending a message through this platform or by contacting  me via the provided contact information.
 
-9. What consultation services do you offer?
+Q: What consultation services do you offer?
 
 I offer personalized consultation services to assist prospective students in navigating the programs offered by European Global School University and Universiti Sains Malaysia. Additionally, I provide guidance on academic and career planning related to higher education.
 
-10. How can I benefit from your consultation services?
+Q: How can I benefit from your consultation services?
 
 By utilizing my consultation services, you can gain valuable insights into the programs offered by the universities, receive guidance on program selection based on your academic and career goals, and get support in the application process.
 
-11. Are your consultation services free of charge?
+Q: Are your consultation services free of charge?
 
 My initial consultation services are typically free of charge. However, for more in-depth or ongoing consultation services, there may be fees involved. Please contact me for detailed information.
 
