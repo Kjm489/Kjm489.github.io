@@ -100,23 +100,23 @@ My initial consultation services are typically free of charge. However, for more
 
 ## Writing Services (FAQ)
 
-1. Do you offer writing services related to academic work or applications?
+Q: Do you offer writing services related to academic work or applications?
 
 Yes, I provide writing services for various purposes, including academic essays, personal statements, CVs, cover letters, and application materials for university programs or scholarships.
 
-2. How can I request writing services from you?
+Q: How can I request writing services from you?
 
 You can request writing services by contacting me directly through this platform or via the provided contact information. Please provide details about the type of writing service you require, along with any specific instructions or deadlines.
 
-3. What is the process for requesting writing services?
+Q: What is the process for requesting writing services?
 
 Once you have contacted me with your writing service request, we will discuss the requirements, timeline, and pricing (if applicable). I will work closely with you to ensure that the final product meets your needs and expectations.
 
-4. Are your writing services tailored to specific academic fields or subjects?
+Q: Are your writing services tailored to specific academic fields or subjects?
 
 Yes, my writing services can be tailored to suit various academic fields and subjects. Whether you need assistance with an essay in the humanities, a research paper in the sciences, or a personal statement for a business program, I can help.
 
-5. Do you provide editing and proofreading services as well?
+Q: Do you provide editing and proofreading services as well?
 
 Yes, in addition to writing services, I offer editing and proofreading services to help polish and refine your existing written work. Whether you need a quick proofread or a comprehensive edit, I can assist you in improving your writing.
 
