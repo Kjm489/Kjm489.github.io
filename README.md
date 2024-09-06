@@ -80,7 +80,7 @@ You can click the Preview link to take a look at your changes.
 
 ## License
 
-This portfolio is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt).
+This (Profile-Resume) is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt).
 
 Additional Notes are found in [Notes](Notes.txt) file.
 
