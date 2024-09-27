@@ -21,7 +21,9 @@ As a consultant representative, I provide information and guidance regarding the
 
 Q: Are the courses listed under USM/EGS available courses actual courses that I can enroll in?
 
-No, the courses listed under available courses are for informational purposes only. They represent actual courses that you can enroll in through their platforms.
+A: No, the courses listed under “available courses” are for informational purposes only. They represent real courses that can be enrolled in through their respective platforms.
+
+European Global School University and Universiti Sains Malaysia have partnered to offer a variety of courses, which are listed on their websites.
 
 Q: How can I get more information about the programs offered by European Global School University and Universiti Sains Malaysia?
 
