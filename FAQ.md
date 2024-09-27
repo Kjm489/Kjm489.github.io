@@ -19,9 +19,9 @@ Q: What is your role as a consultant representative for European Global School U
 
 As a consultant representative, I provide information and guidance regarding the programs offered by European Global School University and Universiti Sains Malaysia.
 
-Q: Are the courses listed under available courses actual courses that I can enroll in?
+Q: Are the courses listed under USM/EGS available courses actual courses that I can enroll in?
 
-No, the courses listed under available courses are for informational purposes only. They do not represent actual courses that you can enroll in through this platform.
+No, the courses listed under available courses are for informational purposes only. They represent actual courses that you can enroll in through their platforms.
 
 Q: How can I get more information about the programs offered by European Global School University and Universiti Sains Malaysia?
 
