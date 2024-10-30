@@ -85,6 +85,11 @@ Q: Do you provide editing and proofreading services as well?
 
 Yes, in addition to writing services, I offer editing and proofreading services to help polish and refine your existing written work. Whether you need a quick proofread or a comprehensive edit, I can assist you in improving your writing.
 
+Q: Do you offer any refunds?
+
+Yes, within 7 days but I still retain 20% of any and eveey fee paid, Clients receive 80% in return.
+
+
  
 
 ## (FAQ) - Online Tutoring Sessions
