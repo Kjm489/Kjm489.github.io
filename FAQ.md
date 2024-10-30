@@ -87,7 +87,7 @@ Yes, in addition to writing services, I offer editing and proofreading services 
 
 Q: Do you offer any refunds?
 
-Yes, within 7 days but I still retain 20% of any and eveey fee paid, Clients receive 80% in return.
+Yes, within 7 days but I still retain 20% of any and eveey fee paid, Clients receive 80% in return. After 7 days no refund is issued.
 
 
  
