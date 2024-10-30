@@ -87,7 +87,7 @@ Yes, in addition to writing services, I offer editing and proofreading services 
 
 Q: Do you offer any refunds?
 
-Yes, issue a partial refund within 7 days but I still retain 20% of any and every fee paid, Clients receive 80% in return. After 7 days no refund is issued.
+Yes, we offer a partial refund within 7 days of payment. If a refund is requested within this period, clients receive 80% of the fee paid, with 20% retained as a non-refundable fee. After 7 days, no refunds will be issued.
 
 
  
