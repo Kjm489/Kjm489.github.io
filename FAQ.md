@@ -69,6 +69,9 @@ Q: Do you offer writing services related to academic work or applications?
 
 Yes, I provide writing services for various purposes, including academic essays, personal statements, CVs, cover letters, and application materials for university programs or scholarships.
 
+Affordable Options: $40 per 1,000 words for basic proofreading (spelling, grammar, punctuation)
+Higher End Services: $50 per 1,000 words for Thesis, Dissertations 
+
 Q: How can I request writing services from you?
 
 You can request writing services by contacting me directly through this platform or via the provided contact information. Please provide details about the type of writing service you require, along with any specific instructions or deadlines.
