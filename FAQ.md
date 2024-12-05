@@ -65,8 +65,9 @@ My initial consultation services are typically free of charge. However, for more
 
 ## Writing Services (FAQ)
 
-•Affordable Options: $40 per 1,000 words for basic proofreading (spelling, grammar, punctuation)
-•Higher-End Services: $50 per 1,000 words for Thesis, Dissertations 
+Affordable Options: $40 per 1,000 words for basic proofreading (spelling, grammar, punctuation)
+
+Higher-End Services: $50 per 1,000 words for Thesis, Dissertations 
 
 
 Q: Do you offer writing services related to academic work or applications?
