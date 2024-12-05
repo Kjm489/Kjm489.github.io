@@ -89,6 +89,11 @@ Q: Do you offer any refunds?
 
 Yes, we offer a partial refund within 7 days of payment. If a refund is requested within this period, clients receive 80% of the fee paid, with 20% retained as a non-refundable fee. After 7 days, no refunds will be issued and no unlimited edits past 7-days.
 
+Please Note: Services provided do not include a guarantee of quality. By making
+payment, the client agrees to the terms and acknowledges the FAQ summary
+outlined on our website. Terms and policies are subject to change at any time
+without prior notice.
+
 
  
 
