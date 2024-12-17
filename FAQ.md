@@ -93,17 +93,17 @@ Yes, in addition to writing services, I offer editing and proofreading services 
 Q: What is the breakdown?
 
 Pricing Tiers:
-• Tier 1: $45 (up to 1,000W)
-• Tier 2: $55 (2,000W-5,000W)
-• Tier 3: $150 (5,000W-10,000W)
+Tier 1: $45 (up to 1,000W)
+Tier 2: $55 (2,000W-5,000W)
+Tier 3: $150 (5,000W-10,000W)
 
 Referral Incentives:
-• For Tiers 1 and 2: You earn $5 per referral, and I receive the remaining amount.
-• For Tier 3: You earn $10 per referral, and I receive $140.
+For Tiers 1 and 2: You earn $5 per referral, and I receive the remaining amount.
+For Tier 3: You earn $10 per referral, and I receive $140.
 
 Refund Policy:
-• Refunds are allowed within 3 days of purchase, with 20% retained as a service fee. You will receive 80% of the payment.
-• No refunds are available after 3 days.
+Refunds are allowed within 3 days of purchase, with 20% retained as a service fee. You will receive 80% of the payment.
+No refunds are available after 3 days.
 
 Please Note: Services provided do not include a guarantee of quality. By making
 payment, the client agrees to the terms and acknowledges the FAQ summary
