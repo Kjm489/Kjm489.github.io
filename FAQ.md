@@ -93,8 +93,8 @@ Pricing Tiers:
 3. Tier 3: $150 (5,000W-10,000W)
 
 Refund Policy:
-Refunds are allowed within 3 days of purchase, with 20% retained as a service fee. You will receive 80% of the payment.
-No refunds are available after 3 days.
+Refunds are allowed within 5 days of purchase, with 20% retained as a service fee. You will receive 80% of the payment.
+No refunds are available after 5 days.
 
 Please Note: Services provided do not include a guarantee of quality. By making
 payment, the client agrees to the terms and acknowledges the FAQ summary
