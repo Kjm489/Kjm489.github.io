@@ -90,9 +90,20 @@ Q: Do you provide editing and proofreading services as well?
 
 Yes, in addition to writing services, I offer editing and proofreading services to help polish and refine your existing written work. Whether you need a quick proofread or a comprehensive edit, I can assist you in improving your writing.
 
-Q: Do you offer any refunds?
+Q: What is the breakdown?
 
-Yes, we offer a partial refund within 7 days of payment. If a refund is requested within this period, clients receive 80% of the fee paid, with 20% retained as a non-refundable fee. After 7 days, no refunds will be issued and no unlimited edits past 7-days.
+Pricing Tiers:
+• Tier 1: $45 (up to 1,000W)
+• Tier 2: $55 (2,000W-5,000W)
+• Tier 3: $150 (5,000W-10,000W)
+
+Referral Incentives:
+• For Tiers 1 and 2: You earn $5 per referral, and I receive the remaining amount.
+• For Tier 3: You earn $10 per referral, and I receive $140.
+
+Refund Policy:
+• Refunds are allowed within 3 days of purchase, with 20% retained as a service fee. You will receive 80% of the payment.
+• No refunds are available after 3 days.
 
 Please Note: Services provided do not include a guarantee of quality. By making
 payment, the client agrees to the terms and acknowledges the FAQ summary
