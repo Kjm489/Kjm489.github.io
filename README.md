@@ -82,6 +82,8 @@ You can click the Preview link to take a look at your changes.
 
 This (Profile-Resume) is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt).
 
+The Originality Statement issued in [Originality.md](Originality.md) file.
+
 Additional Notes are found in [Notes](Notes.txt) file.
 
 Additional notices are found in the
