@@ -93,12 +93,12 @@ Pricing Tiers:
 3. Tier 3: $150 (5,000W-10,000W)
 
 Refund Policy:
-Refunds are allowed within 5 days of purchase, with 20% retained as a service fee. You will receive 80% of the payment.
+Refunds are allowed within 5 days of purchase, with 50% retained as a service fee. You will receive 50% of the payment.
 No refunds are available after 5 days.
 
 Special Project: Details are discussed with clients 
 Refund Policy on Special Projects with Writing/Story Creation - No Refunds after 7-days.
-Refund Policy is Applied = 20% Retained/80% Refund. No Edits after 7/14 days depending on Batch Size. 
+Refund Policy is Applied = 50% Retained/50% Refund. No Edits after 7/14 days depending on Batch Size. 
 
 Please Note: Services provided do not include a guarantee of quality. By making
 payment, the client agrees to the terms and acknowledges the FAQ summary
