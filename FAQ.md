@@ -96,6 +96,9 @@ Refund Policy:
 Refunds are allowed within 5 days of purchase, with 20% retained as a service fee. You will receive 80% of the payment.
 No refunds are available after 5 days.
 
+Special Project: Details are discussed with clients 
+Refund Policy on Special Projects with Writing/Story Creation - No Refunds after 7-days! No Edits after 7/14 days depending on Batch Size. 
+
 Please Note: Services provided do not include a guarantee of quality. By making
 payment, the client agrees to the terms and acknowledges the FAQ summary
 outlined on our website. Terms and policies are subject to change at any time
