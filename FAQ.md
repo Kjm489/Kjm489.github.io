@@ -18,57 +18,6 @@ Payment transactions for university programs are processed securely through WISE
 4. Schedule a Consultation: 
 Schedule a consultation to gain insights, guidance, and support for navigating the programs offered by the universities. Contact directly through the platform or provided contact information.
 
-
-## Asked Questions
-
-Q: What is your role as a consultant representative for European Global School University and Universiti Sains Malaysia?
-
-As a consultant representative, I provide information and guidance regarding the programs offered by European Global School University and Universiti Sains Malaysia.
-
-Q: Are the courses listed under USM/EGS available courses actual courses that I can enroll in?
-
-A: No, the courses listed under “available courses” are for informational purposes only. They represent real courses that can be enrolled in through their respective platforms.
-
-European Global School University and Universiti Sains Malaysia have partnered to offer a variety of courses, which are listed on their websites.
-
-Q: How can I get more information about the programs offered by European Global School University and Universiti Sains Malaysia?
-
-You can contact me directly through this platform for more information about the programs offered by European Global School University and Universiti Sains Malaysia.
-
-Q: How are payment transactions processed for the programs offered by the universities?
-
-Payment transactions for the programs offered by the universities are processed through WISE (Web Integrated Services Environment), a secure online payment platform.
-
-Q: What is WISE and is it safe to use for online transactions?
-
-WISE is a secure online payment platform that ensures the safety and security of your transactions. It is safe to use for online payments related to the programs offered by the universities.
-
-Q: Can I enroll in courses directly through this platform?
-
-No, you cannot enroll in courses directly through this platform. Please contact me for further assistance and guidance on enrolling in the programs offered by the universities.
-
-Q: Do you offer any personalized consulting services for prospective students?
-
-Yes, I offer personalized consulting services to help prospective students navigate the programs offered by European Global School University and Universiti Sains Malaysia.
-
-Q: How can I schedule a consultation with you?
-
-You can schedule a consultation with me by sending a message through this platform or by contacting  me via the provided contact information.
-
-Q: What consultation services do you offer?
-
-I offer personalized consultation services to assist prospective students in navigating the programs offered by European Global School University and Universiti Sains Malaysia. Additionally, I provide guidance on academic and career planning related to higher education.
-
-Q: How can I benefit from your consultation services?
-
-By utilizing my consultation services, you can gain valuable insights into the programs offered by the universities, receive guidance on program selection based on your academic and career goals, and get support in the application process.
-
-Q: Are your consultation services free of charge?
-
-My initial consultation services are typically free of charge. However, for more in-depth or ongoing consultation services, there may be fees involved. Please contact me for detailed information.
-
- 
-
 ## Writing Services (FAQ)
 
 Q: Do you offer writing services related to academic work or applications?
@@ -112,50 +61,3 @@ Please Note: Services provided do not include a guarantee of quality. By making
 payment, the client agrees to the terms and acknowledges the FAQ summary
 outlined on our website. Terms and policies are subject to change at any time
 without prior notice.
-
-
- 
-
-## (FAQ) - Online Tutoring Sessions
-
-Q: What platform do you use for online tutoring sessions?
-
-I conduct online tutoring sessions through either MS Teams or Zoom, based on the preference of the student.
-
-Q: How do I schedule a tutoring session with you?
-
-To schedule a tutoring session, please contact me via email at [kjm489@km-consultant.pro] with your preferred dates and times. I will then work with you to find a suitable time for the session.
-
-Q: What materials will I need for the online tutoring sessions?
-
-You will need a stable internet connection, a computer or device with a microphone and webcam, and any relevant study materials or textbooks. Additionally, a notebook and pen for taking notes during the session can be helpful.
-
-Q: How do I make payment for the tutoring sessions?
-
-Payment for tutoring sessions can be made via [payment method], which will be discussed and arranged prior to the first session.
-
-Q: Can I reschedule or cancel a tutoring session?
-
-Yes, you can reschedule or cancel a tutoring session by providing at least 24 hours' notice. Please contact me as soon as possible to make any changes to the session schedule.
-
-Q: What is your cancellation policy?
-
-If you need to cancel a session, please provide at least 24 hours' notice. Cancellations made less than 24 hours before the scheduled session may be subject to a cancellation fee.
-
-Q: Do you provide study materials for exam preparation?
-
-I can provide study materials, practice tests, and resources to help you prepare for exams such as IELTS, OET, and the US Citizenship Test. These materials will be shared with you during the tutoring sessions.
-
-Q: Are you certified in OET Knowledge?
-
-Yes, I am certified in OET Knowledge and have experience helping students prepare for the OET exam.
-
-Q: How do I connect with you for the online tutoring session?
-
-Prior to the scheduled session, I will send you a meeting invitation via MS Teams or Zoom with the necessary details to join the session. Simply click on the link provided to connect with me at the scheduled time.
-
-Q: How can I provide feedback or ask questions outside of tutoring sessions?
-
-You can email me at [kjm489@km-consultant.pro] with any feedback, questions, or concerns you may have. I aim to respond to emails within 24 hours.
-
-
