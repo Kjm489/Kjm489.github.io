@@ -22,19 +22,23 @@ Yes, in addition to writing services, I offer editing and proofreading services 
 
 Q: What is the breakdown?
 
-Pricing Tiers:
+## Pricing Tiers:
 
-Tier 1: $45 (up to 1,000W)
-Tier 2: $55 (2,000W-5,000W)
-Tier 3: $150 (5,000W-10,000W)
-Refund Policy: Refunds are allowed within 5 days of purchase, with 50% retained as a service fee. You will receive 50% of the payment. No refunds are available after 5 days.
+- Tier 1: $45 (up to 1,000W)
+- Tier 2: $55 (2,000W-5,000W)
+- Tier 3: $150 (5,000W-10,000W)
 
-Special Project:
+## Refund Policy: 
+- Refunds are allowed within 5 days of purchase, with 50% retained as a service fee. 
+- You will receive 50% of the payment. No refunds are available after 5 days.
 
-Refund Policy on Special Projects with Writing/Story Creation - No Refunds after 7-days.
+## Special Project:
 
-Refund Policy is Applied = 50% Retained/50% Refund. No Edits after 7/14 days depending on Batch Size.
+Refund Policy on Special Projects with Writing/Story Creation
 
-Edits must be submitted by 5:00 PM for deadline.
+- No Refunds after 7-days.
+- Refund Policy is Applied = 50% Retained/50% Refund. 
+- No Edits after 7/14 days depending on Batch Size.
+- Edits must be submitted by 5:00 PM for deadline.
 
 Please Note: Services provided do not include a guarantee of quality. By making payment, the client agrees to the terms and acknowledges the FAQ summary outlined on our website. Terms and policies are subject to change at any time without prior notice.
