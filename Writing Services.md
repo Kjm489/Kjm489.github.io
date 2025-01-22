@@ -1,4 +1,4 @@
-## Writing Services
+## Writing Services (FAQ)
 
 Q: Do you offer writing services related to academic work or applications?
 
