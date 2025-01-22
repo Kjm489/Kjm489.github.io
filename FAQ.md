@@ -2,7 +2,7 @@
 
 - FAQ Summary
 - [Asked Questions](AskedQuestions.md)
-- [Writing Services](WritingServices.md)
+- [WritingServices](WritingServices.md)
 - Online Tutoring
 
 ## FAQ Summary
