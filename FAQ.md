@@ -1,7 +1,7 @@
 ## Table of Contents 
 
 - [Asked Questions](AskedQuestions.md)
-- [Writing Services](WritingServices.md)
+- [Writing Services](WritingQuestions.md)
 - [Online Tutoring](OnlineTutoring.md)
 
 ## FAQ Summary
