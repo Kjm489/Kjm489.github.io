@@ -28,6 +28,8 @@ Q: What is the breakdown?
 - Tier 2: $55 (2,000W-5,000W)
 - Tier 3: $150 (5,000W-10,000W)
 
+- These Tiers apply to Essays, Thesis and Dissertations.
+
 ## Refund Policy: 
 - Refunds are allowed within 5 days of purchase, with 50% retained as a service fee. 
 - You will receive 50% of the payment. No refunds are available after 5 days.
