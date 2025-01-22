@@ -18,4 +18,5 @@ Payment transactions for university programs are processed securely through WISE
 4. Schedule a Consultation: 
 Schedule a consultation to gain insights, guidance, and support for navigating the programs offered by the universities. Contact directly through the platform or provided contact information.
 
+5. Terms and policies are subject to change at any time without prior notice.
 
