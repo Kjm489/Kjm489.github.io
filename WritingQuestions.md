@@ -38,9 +38,9 @@ Q: What is the breakdown?
 
 Refund Policy on Special Projects with Writing/Story Creation
 
-- No Refunds after 7-days.
+- No Refunds after 5-days.
 - If Refund Policy is Applied = 50% Retained/50% Refund. 
-- No Edits after 7/14 days depending on Batch Size.
+- No Edits after 5/12days depending on Batch Size.
 - Edits must be submitted by 5:00 PM for deadline.
 
 **Please Note**: Services provided do not include a guarantee of quality. By making payment, the client agrees to the terms and acknowledges the FAQ summary outlined on our website. Terms and policies are subject to change at any time without prior notice.
