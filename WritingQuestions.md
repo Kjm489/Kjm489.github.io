@@ -27,6 +27,9 @@ Q: What is the breakdown?
 - Tier 1: $45 (up to 1,000W)
 - Tier 2: $55 (2,000W-5,000W)
 - Tier 3: $150 (5,000W-10,000W)
+- Tier 4: $350 (10,000W-15,000W)
+- Tier 5: $550 (15,000W-25,000W)
+- Tier 6: $750- $850 (25,000W up to 80,000W)
 
 - These Tiers apply to Essays, Thesis and Dissertations.
 
