@@ -22,16 +22,16 @@ Yes, in addition to writing services, I offer editing and proofreading services 
 
 Q: What is the breakdown?
 
-## Pricing Tiers:
+## Pricing Tiers
 
-- Tier 1: $45 (up to 1,000W)
-- Tier 2: $55 (2,000W-5,000W)
-- Tier 3: $150 (5,000W-10,000W)
-- Tier 4: $350 (10,000W-15,000W)
-- Tier 5: $550 (15,000W-25,000W)
-- Tier 6: $750- $850 (25,000W up to 80,000W)
+These tiers apply to Essays, Theses, and Dissertations.  
 
-- These Tiers apply to Essays, Thesis and Dissertations.
+- **Tier 1**: **$45** (up to 1,000W)  
+- **Tier 2**: **$85** (1,000W - 3,000W)  
+- **Tier 3**: **$150** (3,000W - 6,000W)  
+- **Tier 4**: **$275** (6,000W - 10,000W)  
+- **Tier 5**: **$450** (10,000W - 20,000W)  
+- **Tier 6**: **$700 - $850** (20,000W - 80,000W)  
 
 ## Refund Policy: 
 - Refunds are allowed within 5 days of purchase, with 50% retained as a service fee. 
