@@ -27,7 +27,7 @@ THE SOFTWARE.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darkelf Browser</title>
+    <title>Dr. Kevin Moore</title>
     <link rel="shortcut icon" type="image/png" href="Images/favicon.png" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -36,83 +36,119 @@ THE SOFTWARE.
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
     <style>
-        /* CSS Reset */
+        /* Global reset */
         * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
 
         /* Body styles */
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            color: #f0f0f0;
-            background: url("https://images.unsplash.com/photo-1669054626218-f0b57b8ec632?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAwfHxoYWNraW5nfGVufDB8fDB8fHww") no-repeat center center fixed;
+            color: #333;
+            text-align: center;
+            background-color: #000000;
+            background-image: url("https://raw.githubusercontent.com/Kjm489/Kjm489.github.io/main/Images/vibrant.jpg");
             background-size: cover;
-            overflow: auto;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            background-repeat: no-repeat;
             padding: 20px;
+            animation: slideBackground 60s linear infinite alternate;
         }
 
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.6);
-            z-index: 1;
+        @keyframes slideBackground {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 100% 0;
+            }
         }
 
         .container {
-            position: relative;
-            z-index: 2;
             max-width: 800px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            border-radius: 10px;
-            background: rgba(0, 0, 0, 0.7);
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-            animation: fadeIn 1.5s ease-in-out;
             text-align: left;
-            overflow: auto;
+            overflow: hidden;
+            transition: max-width 0.5s ease;
         }
 
-        .container h1 {
-            font-size: 2.5em;
-            margin: 0;
-            color: #39ff14;
-            animation: slideInDown 1s ease-out;
-            font-weight: normal; /* Ensure the title is not bold */
+        @media (min-width: 992px) {
+            .container {
+                max-width: 800px;
+            }
         }
 
-        .container p {
-            font-size: 1.2em;
-            margin: 20px 0;
-            animation: slideInUp 1s ease-out;
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+            border: 4px solid #04A8C8;
         }
 
-        .container ul {
-            list-style-type: disc;
-            margin-left: 20px;
-            text-align: left;
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 10px;
         }
 
-        .button-container {
+        .lead {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #04A8C8;
+            padding-bottom: 5px;
             display: flex;
-            gap: 20px;
-            margin-top: 20px;
-            flex-wrap: wrap;
-            justify-content: center;
-            z-index: 2; /* Ensure buttons are visible */
-            position: relative;
+            align-items: center;
         }
 
-        .button-container a {
+        h2 .bi {
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        ul li:before {
+            content: "\2022";
+            color: #04A8C8;
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0;
+        }
+
+        .btn {
             display: inline-block;
             padding: 10px 20px;
             margin: 5px;
@@ -125,147 +161,175 @@ THE SOFTWARE.
             transition: background-color 0.3s ease;
         }
 
-        .button-container .btn.email {
+        .btn.email {
             background-color: #000000;
         }
 
-        .button-container .btn.github {
+        .btn.orcid {
+            background-color: #a6ce39;
+        }
+
+        .btn.github {
             background-color: #24292e;
         }
 
-        .button-container a:hover {
+        .btn.whatsapp {
+            background-color: #25d366;
+        }
+
+        .btn:hover {
             opacity: 0.8;
         }
 
-        .github-btn-bottom {
-            position: fixed;
-            bottom: 20px;
-            z-index: 3;
-            font-size: 1.5em;
-            text-decoration: none;
-            color: #f0f0f0;
-            transition: color 0.3s;
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+            border-radius: 8px;
         }
 
-        .github-btn-bottom:hover {
-            color: #39ff14;
+        footer p {
+            margin: 0;
         }
 
-        .container h2 i {
-            font-size: 0.9em;
-            margin-right: 10px;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-
-            to {
-                opacity: 1;
-            }
-        }
-
-        @keyframes slideInDown {
-            from {
-                transform: translateY(-100px);
-                opacity: 0;
-            }
-
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-
-        @keyframes slideInUp {
-            from {
-                transform: translateY(100px);
-                opacity: 0;
-            }
-
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-
-        @media (max-width: 480px) {
+        @media (max-width: 768px) {
             .container {
-                margin: 80px 10px;
                 padding: 15px;
             }
+        }
 
-            .container h1 {
-                font-size: 2em;
-            }
+        .credly-badge {
+            margin: 0 auto;
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
 
-            .container p {
-                font-size: 1em;
-            }
+        .contact-info {
+            margin-bottom: 20px;
+        }
 
-            .button-container a {
-                font-size: 1em;
-            }
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .contact-buttons .btn {}
+
+        .smooth-scroll {
+            scroll-behavior: smooth;
         }
     </style>
 </head>
 
-<body>
-    <div class="overlay"></div>
+<body class="smooth-scroll">
     <div class="container">
-        <h1>Darkelf Browser</h1>
-        <p>PySide6 • Tor Integration • Quantum</p>
+        <img src="https://raw.githubusercontent.com/Kjm489/Kjm489.github.io/main/Images/kjm3.jpg" alt="Dr. Kevin Moore"
+            class="avatar">
+        <h1>Dr. Kevin Moore</h1>
+        <p class="lead">Consultant • Educator • Researcher</p>
 
-        <!-- About Darkelf -->
-        <h2><i class="bi bi-info-circle"></i> About Darkelf</h2>
-        <p>Darkelf Browser is designed with privacy and security at its core, ensuring a safer and more private browsing experience for all users.</p>
+        <!-- Introduction -->
+        <h2><i class="bi bi-person-circle"></i> Professional Profile</h2>
+        <p>I am Dr. Kevin Moore, dedicated to leveraging education, research, and innovation to foster global
+            advancements in healthcare and education.</p>
 
-        <!-- Features -->
-        <h2><i class="bi bi-tools"></i> Features</h2>
+        <!-- Biography -->
+        <h2><i class="bi bi-book"></i> Biography</h2>
+        <p>With a PhD in Education and a Minor in TESOL, I am a dedicated Medical Researcher specializing in healthcare and education. My work focuses on enhancing medical knowledge and educational practices for the betterment of communities. Passionate about healthcare, education, and research, my aim is to bridge these domains and enhance learning and health outcomes worldwide. Through the integration of research, education, and innovation, I strive to drive meaningful improvements in healthcare and education. Certified by ManchesterCF and the University of New Haven, Connecticut, I am committed to leveraging my expertise to affect positive change on a global scale.</p>
+
+        <!-- Services -->
+        <h2><i class="bi bi-journal-code"></i> Services</h2>
         <ul>
-            <li>Tor Integration: Enhance your privacy with built-in Tor network support.</li>
-            <li>Quantum Encryption: Stay ahead with post-quantum cryptography.</li>
-            <li>Custom Ad Blocker: Enjoy an ad-free browsing experience with our custom ad blocker.</li>
-            <li>NoScript Filtering: Block potentially harmful scripts to enhance security.</li>
-            <li>Sandboxing: Isolate processes for enhanced security.</li>
-            <li>HTTPS Enforcement: Automatically upgrade HTTP requests to HTTPS.</li>
-            <li>Anti-Fingerprinting: Reduce tracking with advanced spoofing techniques.</li>
+            <li><strong>Financial Data Analysis:</strong> Analyzing financial data, generating reports, and implementing
+                risk management strategies.</li>
+            <li><strong>Research Services:</strong> Utilizing Open Source Intelligence (OSINT) for insights in
+                linguistics, oncology, and strategic medical partnerships.</li>
+            <li><strong>Writing Services:</strong> Crafting attention-grabbing resumes, powerful reference letters, and
+                impeccable thesis/dissertations.</li>
+            <li><strong>Educational Consultation:</strong> Prepare for college admissions and exams like IELTS and OET,
+                certified in OET Knowledge.</li>
         </ul>
 
-        <!-- Important Highlights -->
-        <h2><i class="bi bi-star"></i> Important Highlights</h2>
+        <!-- Affiliations -->
+        <h2><i class="bi bi-people"></i> Affiliations</h2>
+        <p>I am affiliated with organizations like DocMatter, the Endocrine Society, IACA (International Association of
+            Crime Analysts), and ICOS (International Council of Onomastic Science).</p>
+
+        <!-- Vision -->
+        <h2><i class="bi bi-lightbulb"></i> Vision</h2>
+        <p>My vision is to merge research, education, and innovation to create positive impacts on global healthcare and
+            education outcomes.</p>
+
+        <!-- Skills -->
+        <h2><i class="bi bi-cash"></i> Skills</h2>
         <ul>
-            <li>Tor DNS Integration</li>
-            <li>Onion Routing</li>
-            <li>Content Security Policy (CSP) Enhancements</li>
-            <li>CHACHA20 Encryption with x25519 Key Exchange</li>
-            <li>Community Collaboration</li>
+            <li>Data Analysis</li>
+            <li>Research Methodology</li>
+            <li>Multilingual Communication</li>
+            <li>Critical Thinking</li>
+            <li>Teaching and Training</li>
+            <li>Cross-Cultural Competence</li>
+            <li>Intelligence Analysis</li>
+            <li>Medical Terminology</li>
+            <li>Financial Modeling</li>
         </ul>
 
-        <!-- Learn More -->
-        <h2><i class="bi bi-book"></i> Learn More</h2>
+        <!-- Info Section -->
+        <h2><i class="bi bi-info-circle"></i> Info</h2>
         <ul>
-            <li><a href="https://github.com/Darkelf2024/Darkelf-Browser/blob/main/README.md" target="_blank" rel="noopener noreferrer">About Darkelf Browser</a></li>
-            <li><a href="https://github.com/Darkelf2024/Darkelf-Browser/blob/main/Darkelf%20Post%20Quantum%20Edition.md" target="_blank" rel="noopener noreferrer">Darkelf Quantum Edition</a></li>
-            <li><a href="https://github.com/Darkelf2024/Darkelf-Browser/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">License</a></li>
-            <li><a href="https://github.com/Darkelf2024/Darkelf-Browser/blob/main/FAQ.md" target="_blank" rel="noopener noreferrer">FAQ</a></li>
+            <li><a href="https://www.manchestercf.com/fis-7/" target="_blank" rel="noopener noreferrer">ManchesterCF</a>
+            </li>
+            <li><a href="https://www.egs.edu.eu" target="_blank" rel="noopener noreferrer">EGS University</a></li>
+            <li><a href="https://www.usm.my" target="_blank" rel="noopener noreferrer">USM University</a></li>
+            <li><a href="https://github.com/Kjm489/Kjm489.github.io/blob/main/FAQ.md#faq-summary" target="_blank"
+                    rel="noopener noreferrer">FAQ Summary</a></li>
         </ul>
+
+        <!-- Badge -->
+        <h2><i class="bi bi-award"></i> FIS Badge</h2>
+        <div class="credly-badge">
+            <div data-iframe-width="400" data-iframe-height="230"
+                data-share-badge-id="c267d873-79ef-4e05-9389-643b15ae2482" data-share-badge-host="https://www.credly.com">
+            </div>
+            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        </div>
 
         <!-- Contact -->
-        <h2><i class="bi bi-envelope"></i> Contact</h2>
+        <h2><i class="bi bi-telephone"></i> Contact</h2>
         <div class="contact-info">
-            <p>Reach out to us via email or connect with us on professional networks</p>
+            <p>Reach out to me via email or connect with me on professional networks</p>
         </div>
         <div class="contact-buttons">
-            <a href="mailto:kjm489@km-consultant.pro" class="btn email" role="button">
+            <a href="mailto:kjm489@km-consultant.pro" class="btn btn-dark email" role="button">
                 <i class="bi bi-envelope-fill"></i> Email
             </a>
-            <a href="https://github.com/Darkelf2024" class="btn github" role="button" target="_blank" rel="noopener noreferrer">
+            <a href="https://orcid.org/0009-0009-0992-8474" class="btn btn-orcid orcid" role="button" target="_blank"
+                rel="noopener noreferrer">
+                <i class="bi bi-shield-lock-fill"></i> ORCID
+            </a>
+            <a href="https://github.com/Darkelf2024" class="btn btn-dark github" role="button" target="_blank"
+                rel="noopener noreferrer">
                 <i class="bi bi-github"></i> GitHub
+            </a>
+            <a href="https://wa.me/16513094187" class="btn btn-whatsapp whatsapp" role="button" target="_blank"
+                rel="noopener noreferrer">
+                <i class="bi bi-whatsapp"></i> WhatsApp
             </a>
         </div>
     </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-..."
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-..."
+        crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html> 
