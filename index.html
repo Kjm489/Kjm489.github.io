@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dr. Kevin Moore</title>
-  <link rel="shortcut icon" href="Images/favicon.png" type="image/png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Kevin Moore • Global Consultant</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
 
@@ -13,189 +12,225 @@
       margin: 0;
       font-family: 'Arial', sans-serif;
       color: white;
-      background: linear-gradient(135deg, rgba(4, 168, 200, 0.8), rgba(0, 0, 0, 0.8)),
-                  url("https://raw.githubusercontent.com/Kjm489/Kjm489.github.io/main/Images/vibrant.jpg") center/cover no-repeat;
+      background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(4, 168, 200, 0.4)),
+        url("https://raw.githubusercontent.com/Kjm489/Kjm489.github.io/main/Images/vibrant.jpg") center/cover no-repeat fixed;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      padding: 140px 20px;
       text-align: center;
+      background: rgba(0, 0, 0, 0.4);
     }
 
-    .cover-container {
-      max-width: 700px;
-      padding: 40px 20px;
-      margin: 0 auto;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .avatar {
-      width: 180px;
-      height: 180px;
+    .hero img {
+      width: 170px;
+      height: 170px;
       border-radius: 50%;
       border: 4px solid #04A8C8;
+      box-shadow: 0 0 25px rgba(4, 168, 200, 0.7);
       margin-bottom: 20px;
-      box-shadow: 0 0 20px rgba(4, 168, 200, 0.6);
     }
 
-    h1 {
-      font-size: 2.8rem;
+    .hero h1 {
+      font-size: 3rem;
       font-weight: bold;
       margin-bottom: 10px;
-    }
-
-    .tagline {
-      font-size: 1.3rem;
-      color: #ccefff;
-      margin-bottom: 30px;
-    }
-
-    .social-buttons a {
-      margin: 5px;
-      font-size: 1.2rem;
-      padding: 10px 18px;
-      border-radius: 50px;
-      text-decoration: none;
-      color: white;
-      transition: all 0.3s ease;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .social-buttons a:hover {
-      opacity: 0.8;
-      transform: translateY(-2px);
-    }
-
-    .email { background-color: #000000; }
-    .orcid { background-color: #a6ce39; }
-    .github { background-color: #24292e; }
-    .whatsapp { background-color: #25d366; }
-
-    /* Biography Section */
-    .bio-section {
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 40px 20px;
-      border-top: 3px solid #04A8C8;
-      text-align: left;
-      max-width: 900px;
-      margin: 0 auto;
-      border-radius: 10px;
-    }
-
-    .bio-section h2 {
       color: #04A8C8;
-      font-size: 2rem;
-      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin: 0 auto 25px;
+      color: #d7f8ff;
+    }
+
+    .cta-btn {
+      margin-top: 15px;
+      font-size: 1.1rem;
+      padding: 12px 26px;
+      border-radius: 40px;
+      text-decoration: none;
+      background-color: #04A8C8;
+      color: black;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .cta-btn:hover {
+      background-color: #037e94;
+      color: white;
+    }
+
+    /* SERVICE SECTION */
+    .services {
+      padding: 60px 20px;
+      background: rgba(0, 0, 0, 0.65);
+    }
+    .services h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.4rem;
+      color: #04A8C8;
+    }
+    .service-box {
+      background: rgba(255, 255, 255, 0.06);
+      padding: 25px;
+      border-radius: 12px;
+      border-left: 4px solid #04A8C8;
+      transition: 0.3s;
+      height: 100%;
+    }
+    .service-box:hover {
+      transform: translateY(-6px);
+      background: rgba(4, 168, 200, 0.12);
+    }
+    .service-box h3 {
+      font-size: 1.4rem;
+      color: #c3f4ff;
+      margin-bottom: 12px;
+    }
+    .service-box p {
+      font-size: 1rem;
+      color: #e8faff;
+    }
+
+    /* ABOUT SECTION */
+    .about {
+      padding: 70px 20px;
+      background: rgba(0, 0, 0, 0.75);
+    }
+    .about h2 {
+      color: #04A8C8;
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 2.2rem;
+    }
+    .about p {
+      font-size: 1.1rem;
+      color: #e8faff;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.7;
       text-align: center;
     }
 
-    .bio-section h3 {
-      color: #ccefff;
-      font-size: 1.3rem;
-      margin-top: 25px;
+    /* CONTACT SECTION */
+    .contact {
+      padding: 70px 20px;
+      background: rgba(0, 0, 0, 0.85);
+    }
+    .contact h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #04A8C8;
     }
 
-    .bio-section p, .bio-section li {
-      font-size: 1rem;
-      color: #e6faff;
-      line-height: 1.6;
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      border-radius: 40px;
+      background-color: #04A8C8;
+      color: black;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .contact a:hover {
+      background-color: #037e94;
+      color: white;
     }
 
-    ul {
-      padding-left: 20px;
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 0.9rem;
+      color: #bdefff;
+      background: rgba(0,0,0,0.7);
     }
   </style>
 </head>
 <body>
-  <div class="cover-container">
-    <img src="https://raw.githubusercontent.com/Kjm489/Kjm489.github.io/main/Images/kjm3.jpg" alt="Dr. Kevin Moore" class="avatar" />
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="https://raw.githubusercontent.com/Kjm489/Kjm489.github.io/main/Images/kjm3.jpg" alt="Dr. Kevin Moore" />
     <h1>Dr. Kevin Moore</h1>
-    <p class="tagline">Consultant • Educator • Researcher</p>
-
-    <div class="social-buttons">
-      <a href="mailto:kjm489@km-consultant.pro" class="email"><i class="bi bi-envelope-fill"></i>Email</a>
-      <a href="https://orcid.org/0009-0009-0992-8474" class="orcid" target="_blank"><i class="bi bi-shield-lock-fill"></i>ORCID</a>
-      <a href="https://github.com/Darkelf2024" class="github" target="_blank"><i class="bi bi-github"></i>GitHub</a>
-      <a href="https://wa.me/16513094187" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i>WhatsApp</a>
-    </div>
-  </div>
-
-  <!-- Biography Section -->
-  <section class="bio-section">
-    <h2>Biography</h2>
-
-    <h3>Professional Summary</h3>
-    <p>Accomplished Director of Operations and International Consultant with over 20 years of global experience in education, business, research, and strategic program management. Ph.D. in Education (TESOL focus) with extensive expertise in TESOL methodologies, linguistics, oncology research, OSINT, and financial intelligence analysis. Proven track record in higher education, corporate training, and cross-cultural program development. Recognized for advanced research capabilities, multilingual communication skills, and the ability to bridge educational, business, and intelligence domains.</p>
-
-    <h3>Education</h3>
-    <p><strong>Ph.D. in Education (Minor in TESOL)</strong> — European Global School – University, France (2021–2023)</p>
-
-    <h3>Certifications (2021–Present)</h3>
-    <ul>
-      <li>Financial Intelligence Specialist — ManchesterCF (AML, OSINT, Anti-Human Trafficking)</li>
-      <li>TESOL Advanced Certification (120 Hours)</li>
-      <li>National Geographic Educator Certification (Active)</li>
-      <li>TESOL International Association Leadership Certification</li>
-      <li>ESL Multi-Level Adult Certification — Minnesota Literacy Council</li>
-      <li>CTOS Homeland Security — Nuclear Refresher Certification</li>
-      <li>IELTS Teacher Training Program — Certification</li>
-      <li>OET Teacher Training Award Program — Knowledge Certification</li>
-    </ul>
-
-    <h3>IT & Cybersecurity</h3>
-    <ul>
-      <li>OSINT Fundamentals & Practical Ethical Hacking — TCM Security</li>
-      <li>Cybersecurity Specialization — IBM</li>
-      <li>Cybersecurity/Linux Specialization — Linux Foundation</li>
-      <li>Maltego OSINT Tools Certification — The Cyber Institute</li>
-    </ul>
-
-    <h3>Professional Memberships</h3>
-    <ul>
-      <li>Endocrine Society — Full Associate</li>
-      <li>International Association of Crime Analysts (IACA)</li>
-      <li>International Council of Onomastic Sciences (ICOS)</li>
-      <li>HTMSE Directory — Human Trafficking & Modern Slavery Experts (2021–2024)</li>
-      <li>ICAC Taskforce — Internet Crimes Against Children (2021–2024)</li>
-      <li>DocMatter Community</li>
-    </ul>
-
-    <h3>IT Memberships</h3>
-    <ul>
-      <li>Linux Foundation — Member</li>
-      <li>Shodan — Lifetime Member</li>
-      <li>Censys — Community Member</li>
-      <li>Maltego Community — Member</li>
-      <li>The Cyber Institute — Lifetime Member</li>
-    </ul>
-
-    <h3>Work Experience</h3>
-    <ul>
-      <li><strong>Professional Consultant & Researcher (2014–Present)</strong><br>Providing expertise in TESOL, OSINT, financial intelligence, oncology research, and international education programs.</li>
-      <li><strong>Medical Researcher & ESL Instructor — Chengdu Medical University, China (2019–2022)</strong><br>Taught Pharmaceutical English, conducted cancer cell and regenerative medicine research, and delivered preventative endocrinology lectures.</li>
-      <li><strong>ESL Lecturer — Mianyang Teachers College, China (2014–2019)</strong><br>Taught English communication, grammar, and listening comprehension; coordinated English Corner and engagement programs.</li>
-      <li><strong>Volunteer ESL Teacher — Minnesota ABE Program / Anoka Technical College, USA (2010–2014)</strong><br>Delivered English and citizenship preparation classes for adult learners.</li>
-    </ul>
-
-    <h3>Languages</h3>
-    <ul>
-      <li>English — Native</li>
-      <li>Mandarin Chinese (Sichuan Dialect) — B1 (HSK3)</li>
-      <li>German — B1</li>
-      <li>Hebrew — A2</li>
-      <li>Vietnamese — A1</li>
-    </ul>
-
-    <h3>Core Strengths</h3>
-    <ul>
-      <li>20+ years of experience in international education, research, and consulting.</li>
-      <li>Expertise in TESOL methodologies, corporate training, and online education.</li>
-      <li>Ph.D.-level research and academic leadership.</li>
-      <li>Certified Financial Intelligence Specialist with advanced OSINT & cybersecurity skills.</li>
-      <li>Proven ability to deliver impactful programs in multicultural and multidisciplinary settings.</li>
-    </ul>
+    <p>Global Consultant specializing in OSINT Intelligence, Financial Crime Analysis, International Education Systems, Research Methodology, and Cross-Cultural Program Development.</p>
+    <a href="#contact" class="cta-btn">Request Consultation</a>
   </section>
+
+  <!-- SERVICES -->
+  <section class="services">
+    <h2>Consulting Specializations</h2>
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <h3><i class="bi bi-search"></i> OSINT & Intelligence Analysis</h3>
+            <p>Ethical OSINT investigations, digital footprint analysis, risk intelligence reporting, and profiling using industry-standard tools including Maltego, Shodan, and Censys.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <h3><i class="bi bi-bank"></i> Financial Crime & AML Advisory</h3>
+            <p>Compliance, anti-money laundering, sanctions research, fraud mapping, and intelligence workflows informed by ManchesterCF FIS certification.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <h3><i class="bi bi-globe"></i> International Education & TESOL Strategy</h3>
+            <p>Program design, curriculum development, training systems, and global education consulting with 20+ years of cross-cultural experience.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <h3><i class="bi bi-journal-text"></i> Research Methodology Consulting</h3>
+            <p>PhD-level training in academic research design, literature review construction, and data analysis consulting for institutions and private clients.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <h3><i class="bi bi-shield-check"></i> Cyber Intelligence & Threat Profiling</h3>
+            <p>Threat surface assessment, OSINT-supported cyber investigations, and intelligence-driven security recommendations.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <h3><i class="bi bi-people"></i> Cross-Cultural & NGO Advisory</h3>
+            <p>Consulting for NGOs, humanitarian initiatives, and international development projects with experience in Asia, U.S., and Europe.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>About Dr. Moore</h2>
+    <p>Dr. Kevin Moore is a global consultant with 20+ years of experience across education, intelligence analysis, financial crime research, and international program development. With a PhD in Education and a Financial Intelligence Specialist designation, he operates at the intersection of research, global risk analysis, OSINT, and cross-disciplinary consulting. His work integrates academic rigor, investigative methodology, and real-world operational insight.</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact & Booking</h2>
+    <a href="mailto:kjm489@km-consultant.pro"><i class="bi bi-envelope-fill"></i> Email</a>
+    <a href="https://wa.me/16513094187" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+    <a href="https://orcid.org/0009-0009-0992-8474" target="_blank"><i class="bi bi-shield-lock-fill"></i> ORCID</a>
+    <a href="https://github.com/Darkelf2024" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+  </section>
+
+  <footer>
+    © 2025 Dr. Kevin Moore — Global Consulting Services
+  </footer>
+
 </body>
 </html>
