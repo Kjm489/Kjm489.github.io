@@ -1,91 +1,114 @@
 # Dr. Kevin Moore
 
-Consultant • Educator • Researcher
+**Consultant · Educator · Researcher · Darkelf Developer**
 
-## Tech Stack
+[Website](https://km-consultant.pro/) ·
+[Darkelf Labs](https://github.com/Darkelf-Labs) ·
+[Developer Profile](https://github.com/Darkelf2024) ·
+[ORCID](https://orcid.org/0009-0009-0992-8474)
 
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  
-![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)  
-![Encryption](https://img.shields.io/badge/Encryption-%23008C45.svg?style=for-the-badge&logo=lock&logoColor=white)  
-![Crypto](https://img.shields.io/badge/Crypto-%230A0A0A.svg?style=for-the-badge&logo=bitcoin&logoColor=white)  
-![PyCryptodome](https://img.shields.io/badge/PyCryptodome-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=white)  
-![Cryptography](https://img.shields.io/badge/Cryptography-%234B8BBE.svg?style=for-the-badge&logo=lock&logoColor=white)  
+![Darkelf2024 avatar](Images/darkelf2024-avatar.png)
 
-## Special Projects
-- [Darkelf Browser](https://github.com/Darkelf2024/Darkelf-Browser/blob/main/README.md)
-- [Profile-Resume](https://km-consultant.pro)
+## About
 
-## Professional Profile
+I’m Dr. Kevin Moore. My work connects education, research methodology, intelligence analysis and independent software development.
 
-I am Dr. Kevin Moore, dedicated to leveraging education, research, and innovation to foster global advancements in healthcare and education.
+With a PhD in Education, a Financial Intelligence Specialist designation and more than 20 years of education and cross-cultural experience, I focus on clear questions, documented evidence and practical outcomes.
 
-## Biography
+I also develop the Darkelf ecosystem: privacy-focused browsers and open-source tools built through hands-on implementation and testing.
 
-With a PhD in Education and a Minor in TESOL, I am a dedicated Medical Researcher specializing in healthcare and education. My work focuses on enhancing medical knowledge and educational practices for the betterment of communities. Passionate about healthcare, education, and research, my aim is to bridge these domains and enhance learning and health outcomes worldwide. Through the integration of research, education, and innovation, I strive to drive meaningful improvements in healthcare and education. Certified by ManchesterCF and the University of New Haven, Connecticut, I am committed to leveraging my expertise to affect positive change on a global scale.
+## Consulting and Research
 
-## Services
+- **OSINT and intelligence analysis:** public-source research, digital footprints, risk intelligence and structured reporting.
+- **Financial intelligence:** financial crime research, sanctions review, fraud mapping and AML workflow support.
+- **Education and TESOL:** curriculum development, teacher training, international programs and IELTS/OET preparation.
+- **Research methodology:** literature reviews, research design, methodological evaluation and data interpretation.
+- **Medical research analysis:** scientific literature review and evidence synthesis for healthcare-related academic projects.
+- **Technology and performance:** independent software development, usability research and emulation performance documentation.
 
-- Financial Data Analysis: Analyzing financial data, generating reports, and implementing risk management strategies.
-- Research Services: Utilizing Open Source Intelligence (OSINT) for insights in linguistics, oncology, and strategic medical partnerships.
-- Writing Services: Crafting attention-grabbing resumes, powerful reference letters, and impeccable thesis/dissertations.
-- Educational Consultation: Prepare for college admissions and exams like IELTS and OET, certified in OET Knowledge.
+For project scope, availability and fees, contact me directly.
 
-## Affiliations
+## Darkelf Projects
 
-I am affiliated with organizations:
+| Project | Focus | Links |
+|---|---|---|
+| **Darkelf Shadow** | Qt WebEngine browser with network filtering, local MiniAI analysis and Smart Canvas protection | [Source](https://github.com/Darkelf-Labs/Darkelf-Shadow-CE) |
+| **Darkelf Cocoa** | Native macOS browser in the Darkelf ecosystem | [Source](https://github.com/Darkelf-Labs/Darkelf-Cocoa-Browser) |
+| **Darkelf Labs** | Browser projects and supporting open-source tools | [Repositories](https://github.com/Darkelf-Labs) |
 
-- DocMatter
-- Endocrine Society
-- IACA (International Association of Crime Analysts)
-- ICAC (Internet Crimes Against Children)
-- ICOS (International Council of Onomastic Science)
+**[Browser downloads and release notes](https://darkelfbrowser.com/)**
 
-## Vision
+Platform capabilities and privacy behavior vary by distribution. Refer to each project’s documentation for current details.
 
-My vision is to merge research, education, and innovation to create positive impacts on global healthcare and education outcomes.
+## Professional Credential
 
-## Skills
+**Financial Intelligence Specialist — FIS**
 
-- Data Analysis
-- Research Methodology
-- Multilingual Communication
-- Critical Thinking
-- Teaching and Training
-- Cross-Cultural Competence
-- Intelligence Analysis
-- Medical Terminology
-- Financial Modeling
+[View credential on Credly](https://www.credly.com/badges/c267d873-79ef-4e05-9389-643b15ae2482/embedded)
 
-## Info
+## Website
 
-- [ManchesterCF](https://www.manchestercf.com/fis-7/)
-- [EGS University](https://www.egs.edu.eu/)
-- [USM University](https://www.usm.my/)
+This repository contains the source for [km-consultant.pro](https://km-consultant.pro/).
 
+The portfolio uses static HTML and CSS, local images, responsive layouts and emerald-green/deep-purple styling.
 
-## FIS Badge
-[FIS BADGE](https://www.credly.com/badges/c267d873-79ef-4e05-9389-643b15ae2482/embedded)
-The Financial Intelligence Specialist (FIS) designation provides an online qualification for anti-money laundering and anti-terrorist financing compliance professionals.The designation is provided jointly by ManchesterCF and the University of NewHaven, Connecticut.
+The website code includes no JavaScript, analytics scripts, embedded third-party widgets or cookie storage. Hosting providers and external services have their own privacy practices.
+
+### Files
+
+| Path | Purpose |
+|---|---|
+| `index.html` | Portfolio, services, projects and contact information |
+| `assets/styles.css` | Responsive styling |
+| `Images/darkelf2024-avatar.png` | Personal illustrated avatar |
+| `Images/darkelf-labs.png` | Darkelf Labs emblem |
+| `CNAME` | Custom domain configuration |
+| `LICENSE.txt` | Website source-code license |
+| `NOTICE.txt` | Image and branding notices |
+| `Notes.txt` | Maintenance notes |
+
+### Local Preview
+
+From the repository directory:
+
+```bash
+python3 -m http.server 8000
+```
+
+Open **http://localhost:8000**.
+
+No dependency installation or compilation is required.
+
+### Maintenance
+
+Edit `index.html` for content and links, and `assets/styles.css` for layout and colors.
+
+Keep `CNAME` set to:
+
+```text
+km-consultant.pro
+```
+
+Upload website files at the repository root and retain the existing GitHub Pages configuration.
+
+Browser versions and release notes are maintained through the official Darkelf browser portal rather than duplicated in this portfolio.
 
 ## Contact
-- Email: kjm489@km-consultant.pro
-- Website: [Dr. Kevin Moore](https://km-consultant.pro/)
 
-Reach out to me via email or connect with me on professional networks
+- **Email:** [kjm489@km-consultant.pro](mailto:kjm489@km-consultant.pro)
+- **Website:** [km-consultant.pro](https://km-consultant.pro/)
+- **WhatsApp:** [Contact](https://wa.me/16513094187)
+- **ORCID:** [0009-0009-0992-8474](https://orcid.org/0009-0009-0992-8474)
+- **GitHub:** [Darkelf2024](https://github.com/Darkelf2024)
 
-<!---
-Darkelf2024/Darkelf2024 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+For consultations, include your goals, relevant context and timeline. For tutoring, include your time zone and preferred schedule.
 
 ## License
 
-This (Profile-Resume) is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt).
+Website source code is licensed under the **MIT License**. See [LICENSE.txt](LICENSE.txt).
 
-The Originality Statement issued in [Originality.md](Originality.md) file.
+Personal images and Darkelf branding are subject to the exclusions in [NOTICE.txt](NOTICE.txt). Each linked Darkelf project retains its own license.
 
-Additional Notes are found in [Notes](Notes.txt) file.
+---
 
-Additional notices are found in the
-    [NOTICE](https://github.com/Kjm489/Kjm489.github.io/blob/main/NOTICE.txt) file.
+**Dr. Kevin Moore · Consulting, Research & Darkelf**
