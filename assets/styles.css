@@ -174,6 +174,11 @@ nav a {
   align-items: center;
 }
 
+.hero-grid > *,
+.about-grid > * {
+  min-width: 0;
+}
+
 .hero .lead {
   font-size: 1.16rem;
   max-width: 610px;
@@ -195,14 +200,21 @@ nav a {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  min-height: 48px;
   padding: 12px 21px;
   border-radius: 7px;
   text-decoration: none;
   font-size: 0.94rem;
+  line-height: 1.4;
   font-weight: 700;
+  text-align: center;
   border: 1px solid var(--line);
   color: var(--text);
   background: var(--panel);
+}
+
+.button > span {
+  flex-shrink: 0;
 }
 
 .button.primary {
@@ -222,11 +234,13 @@ nav a {
 }
 
 .portrait {
+  width: 100%;
   max-width: 370px;
   justify-self: center;
 }
 
 .portrait img {
+  width: 100%;
   border-radius: 30px;
   border: 1px solid #5b416e;
   aspect-ratio: 1;
@@ -265,7 +279,7 @@ section.section {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
 
@@ -300,10 +314,6 @@ section.section {
   gap: 65px;
 }
 
-.about-grid p:last-child {
-  margin-bottom: 0;
-}
-
 .credential {
   border-top: 1px solid var(--line);
   padding-top: 18px;
@@ -313,11 +323,15 @@ section.section {
 
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
   gap: 22px;
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
   padding: 32px;
   border: 1px solid var(--line);
   border-radius: 14px;
@@ -326,6 +340,15 @@ section.section {
 
 .project.cocoa {
   background: linear-gradient(140deg, #12261d, #141824);
+}
+
+.project-logo {
+  width: 66px;
+  height: 66px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 22px;
 }
 
 .project .tag {
@@ -339,23 +362,27 @@ section.section {
   color: var(--green);
 }
 
-.project p {
+.project-description {
   font-size: 0.97rem;
+  margin-bottom: 0;
 }
 
-.project a {
-  font-size: 0.93rem;
-  font-weight: 650;
+.project > .actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 28px;
 }
 
-.project-logo {
-  width: 66px;
-  height: 66px;
-  border-radius: 14px;
-  margin-bottom: 22px;
+.project > .actions .button {
+  width: 100%;
 }
 
 .project-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
   margin-top: 26px;
   font-size: 0.9rem;
 }
@@ -420,27 +447,14 @@ details p {
   flex-wrap: wrap;
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .footer a {
   color: var(--muted);
-}
-
-.prose {
-  max-width: 780px;
-  padding: 70px 0;
-}
-
-.prose h1 {
-  font-size: 3rem;
-}
-
-.prose h2 {
-  font-size: 1.6rem;
-  margin-top: 40px;
-}
-
-.prose li {
-  color: var(--muted);
-  margin-bottom: 12px;
 }
 
 @media (max-width: 900px) {
@@ -450,7 +464,7 @@ details p {
   }
 
   .cards {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .nav,
@@ -469,7 +483,7 @@ details p {
 
 @media (max-width: 640px) {
   html {
-    scroll-padding-top: 140px;
+    scroll-padding-top: 160px;
   }
 
   .wrap {
@@ -485,7 +499,7 @@ details p {
 
   nav {
     width: 100%;
-    gap: 16px;
+    gap: 12px 16px;
   }
 
   nav a {
@@ -500,7 +514,7 @@ details p {
   .about-grid,
   .projects,
   .cards {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .hero {
@@ -536,10 +550,6 @@ details p {
   .contact-box,
   .project {
     padding: 27px;
-  }
-
-  .prose h1 {
-    font-size: 2.3rem;
   }
 
   .footer-row {
