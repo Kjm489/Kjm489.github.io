@@ -1,249 +1,451 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr. Kevin Moore • Global Consultant</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      color: white;
-      background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(4, 168, 200, 0.4)),
-        url("https://raw.githubusercontent.com/Kjm489/Kjm489.github.io/main/Images/vibrant.jpg") center/cover no-repeat fixed;
-    }
+  <title>Dr. Kevin Moore | Consulting, Research &amp; Darkelf</title>
+  <meta
+    name="description"
+    content="Dr. Kevin Moore — consultant, educator and researcher. Education, OSINT, financial intelligence, research consulting and Darkelf browser projects."
+  >
+  <meta name="theme-color" content="#0d1018">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 
-    .hero {
-      padding: 140px 20px;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.4);
-    }
+  <link rel="canonical" href="https://km-consultant.pro/">
+  <link rel="icon" href="Images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/styles.css">
 
-    .hero img {
-      width: 170px;
-      height: 170px;
-      border-radius: 50%;
-      border: 4px solid #04A8C8;
-      box-shadow: 0 0 25px rgba(4, 168, 200, 0.7);
-      margin-bottom: 20px;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: bold;
-      margin-bottom: 10px;
-      color: #04A8C8;
-    }
-
-    .hero p {
-      font-size: 1.3rem;
-      max-width: 800px;
-      margin: 0 auto 25px;
-      color: #d7f8ff;
-    }
-
-    .cta-btn {
-      margin-top: 15px;
-      font-size: 1.1rem;
-      padding: 12px 26px;
-      border-radius: 40px;
-      text-decoration: none;
-      background-color: #04A8C8;
-      color: black;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    .cta-btn:hover {
-      background-color: #037e94;
-      color: white;
-    }
-
-    .services {
-      padding: 60px 20px;
-      background: rgba(0, 0, 0, 0.65);
-    }
-    .services h2 {
-      text-align: center;
-      margin-bottom: 40px;
-      font-size: 2.4rem;
-      color: #04A8C8;
-    }
-    .service-box {
-      background: rgba(255, 255, 255, 0.06);
-      padding: 25px;
-      border-radius: 12px;
-      border-left: 4px solid #04A8C8;
-      transition: 0.3s;
-      height: 100%;
-    }
-    .service-box:hover {
-      transform: translateY(-6px);
-      background: rgba(4, 168, 200, 0.12);
-    }
-    .service-box h3 {
-      font-size: 1.4rem;
-      color: #c3f4ff;
-      margin-bottom: 12px;
-    }
-    .service-box p {
-      font-size: 1rem;
-      color: #e8faff;
-    }
-
-    .about {
-      padding: 70px 20px;
-      background: rgba(0, 0, 0, 0.75);
-    }
-    .about h2 {
-      color: #04A8C8;
-      text-align: center;
-      margin-bottom: 25px;
-      font-size: 2.2rem;
-    }
-    .about p {
-      font-size: 1.1rem;
-      color: #e8faff;
-      max-width: 950px;
-      margin: auto;
-      line-height: 1.7;
-      text-align: center;
-    }
-
-    .contact {
-      padding: 70px 20px;
-      background: rgba(0, 0, 0, 0.85);
-      text-align: center;
-    }
-    .contact h2 {
-      margin-bottom: 30px;
-      color: #04A8C8;
-    }
-
-    .contact a {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 20px;
-      border-radius: 40px;
-      background-color: #04A8C8;
-      color: black;
-      text-decoration: none;
-      font-weight: 600;
-      transition: 0.3s;
-    }
-    .contact a:hover {
-      background-color: #037e94;
-      color: white;
-    }
-
-    footer {
-      text-align: center;
-      padding: 25px;
-      font-size: 0.9rem;
-      color: #bdefff;
-      background: rgba(0,0,0,0.7);
-    }
-  </style>
+  <meta property="og:type" content="website">
+  <meta
+    property="og:title"
+    content="Dr. Kevin Moore | Consulting, Research &amp; Darkelf"
+  >
+  <meta
+    property="og:description"
+    content="Education, intelligence research and independent software development."
+  >
+  <meta property="og:url" content="https://km-consultant.pro/">
+  <meta
+    property="og:image"
+    content="https://km-consultant.pro/Images/darkelf2024-avatar.png"
+  >
+  <meta
+    property="og:image:alt"
+    content="Darkelf2024 illustrated avatar in green and purple"
+  >
+  <meta name="twitter:card" content="summary">
 </head>
 
 <body>
+  <a class="skip" href="#main">Skip to content</a>
 
-  <!-- HERO -->
-  <section class="hero">
-    <img src="https://raw.githubusercontent.com/Kjm489/Kjm489.github.io/main/Images/kjm3.jpg" alt="Dr. Kevin Moore" />
-    <h1>Dr. Kevin Moore</h1>
-    <p>
-      Global Consultant specializing in OSINT Intelligence, Financial Crime Analysis, Medical Research Analysis,
-      International Education Systems, Research Methodology, and
-      Emulation UX & Performance Behavior Research.
-    </p>
-    <a href="#contact" class="cta-btn">Request Consultation</a>
-  </section>
+  <header class="header">
+    <div class="wrap nav">
+      <a class="brand" href="./">Kevin Moore<span>.</span></a>
 
-  <!-- SERVICES -->
-  <section class="services">
-    <h2>Consulting Specializations</h2>
-    <div class="container">
-      <div class="row g-4">
-
-        <div class="col-md-4">
-          <div class="service-box">
-            <h3><i class="bi bi-search"></i> OSINT & Intelligence Analysis</h3>
-            <p>Ethical OSINT investigations, digital footprint analysis, risk intelligence reporting, and profiling using tools such as Maltego, Shodan, and Censys.</p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="service-box">
-            <h3><i class="bi bi-bank"></i> Financial Crime & AML Advisory</h3>
-            <p>Compliance, AML workflows, sanctions research, fraud mapping, and intelligence processes informed by ManchesterCF FIS certification.</p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="service-box">
-            <h3><i class="bi bi-heart-pulse"></i> Medical Research & Academic Analysis</h3>
-            <p>Scientific literature review, methodological evaluation, data interpretation, and academic research consulting for medical and clinical projects.</p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="service-box">
-            <h3><i class="bi bi-globe"></i> International Education & TESOL Strategy</h3>
-            <p>Program design, curriculum development, training systems, and global education consulting with 20+ years of cross-cultural experience.</p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="service-box">
-            <h3><i class="bi bi-journal-text"></i> Research Methodology Consulting</h3>
-            <p>PhD-level support for academic research design, literature reviews, and qualitative/quantitative data analysis.</p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="service-box">
-            <h3><i class="bi bi-controller"></i> Emulation UX & Performance Research</h3>
-            <p>
-              Applied UX and usability research focused on game emulation on constrained hardware,
-              including frame pacing analysis, behavioral accuracy, perceived smoothness,
-              and real-world performance documentation.
-            </p>
-          </div>
-        </div>
-
-      </div>
+      <nav aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#projects">Darkelf</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-contact" href="#contact">Let’s talk</a>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <!-- ABOUT -->
-  <section class="about">
-    <h2>About Dr. Moore</h2>
-    <p>
-      Dr. Kevin Moore is a global consultant with 20+ years of experience in education, intelligence analysis,
-      financial crime research, OSINT, and international program development.
-      With a PhD in Education, a Financial Intelligence Specialist designation,
-      and academic expertise in research methodology, he integrates investigative rigor,
-      academic insight, and real-world operational experience.
-      He also conducts applied UX and performance behavior research in game emulation environments,
-      documenting usability, frame pacing, and observed performance behavior on consumer hardware.
-    </p>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Consultant · Educator · Researcher</p>
 
-  <!-- CONTACT -->
-  <section id="contact" class="contact">
-    <h2>Contact & Booking</h2>
-    <a href="mailto:kjm489@km-consultant.pro"><i class="bi bi-envelope-fill"></i> Email</a>
-    <a href="https://wa.me/16513094187" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
-    <a href="https://orcid.org/0009-0009-0992-8474" target="_blank"><i class="bi bi-shield-lock-fill"></i> ORCID</a>
-    <a href="https://github.com/Darkelf2024" target="_blank"><i class="bi bi-github"></i> GitHub</a>
-  </section>
+          <h1>
+            Research with purpose.<br>
+            <span class="accent">Ideas into practice.</span>
+          </h1>
 
-  <footer>
-    © 2025 Dr. Kevin Moore — Global Consulting Services
+          <p class="lead">
+            I’m Dr. Kevin Moore. I connect education, intelligence
+            research and independent software development to help
+            people understand complex problems and build practical
+            solutions.
+          </p>
+
+          <div class="actions">
+            <a class="button primary" href="#contact">
+              Discuss a project
+              <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="button" href="#projects">
+              Explore Darkelf
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="portrait">
+          <img
+            src="Images/darkelf2024-avatar.png"
+            width="900"
+            height="900"
+            alt="Darkelf2024 illustrated avatar wearing a fedora and purple jacket"
+          >
+
+          <p class="portrait-caption">
+            Dr. Kevin Moore · Darkelf2024
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap intro-strip">
+      <span>
+        <strong>20+ years</strong>
+        in education &amp; cross-cultural work
+      </span>
+
+      <span>
+        <strong>FIS</strong>
+        · Financial Intelligence Specialist
+      </span>
+
+      <span>
+        <strong>Darkelf Labs</strong>
+        · Independent open-source projects
+      </span>
+    </div>
+
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Areas of practice</p>
+
+          <h2>
+            Clear thinking.<br>
+            Practical support.
+          </h2>
+
+          <p>
+            Consulting and research support shaped around the
+            question, the evidence and the work you need to do.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <span class="number">01 / INTELLIGENCE</span>
+            <h3>OSINT &amp; intelligence analysis</h3>
+
+            <p>
+              Public-source research, digital footprint analysis,
+              risk intelligence and structured reporting using
+              investigative tools and documented sources.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="number">02 / FINANCIAL RESEARCH</span>
+            <h3>Financial crime &amp; AML</h3>
+
+            <p>
+              Financial intelligence research, sanctions review,
+              fraud mapping and AML workflow support informed by
+              the Financial Intelligence Specialist designation.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="number">03 / EDUCATION</span>
+            <h3>Education &amp; TESOL strategy</h3>
+
+            <p>
+              Curriculum development, teacher training,
+              international program design and IELTS/OET
+              preparation grounded in cross-cultural teaching
+              experience.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="number">04 / METHODOLOGY</span>
+            <h3>Research design &amp; analysis</h3>
+
+            <p>
+              Literature reviews, research questions,
+              methodological evaluation and qualitative or
+              quantitative analysis support for academic projects.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="number">05 / SCIENTIFIC LITERATURE</span>
+            <h3>Medical research analysis</h3>
+
+            <p>
+              Scientific literature review, evidence synthesis
+              and research interpretation for medical and
+              healthcare-related academic projects.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="number">06 / TECHNOLOGY</span>
+            <h3>Software &amp; performance research</h3>
+
+            <p>
+              Independent browser development, usability
+              documentation and emulation research focused on
+              frame pacing and observed hardware performance.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="wrap about-grid">
+        <div>
+          <p class="eyebrow">About Dr. Moore</p>
+
+          <h2>
+            Education meets<br>
+            investigation.<br>
+            <span class="accent">And engineering.</span>
+          </h2>
+        </div>
+
+        <div>
+          <p>
+            My work brings together more than 20 years in
+            education and cross-cultural program development
+            with research methodology, financial intelligence
+            and open-source technology.
+          </p>
+
+          <p>
+            With a PhD in Education and a Financial Intelligence
+            Specialist designation, I approach projects through
+            careful questions, documented evidence and useful
+            outcomes.
+          </p>
+
+          <p>
+            I also develop the Darkelf ecosystem: privacy-focused
+            browsers and tools built through hands-on
+            implementation and testing.
+          </p>
+
+          <div class="credential">
+            <a
+              href="https://www.credly.com/badges/c267d873-79ef-4e05-9389-643b15ae2482/embedded"
+            >
+              View FIS credential ↗
+            </a>
+
+            <span aria-hidden="true"> · </span>
+
+            <a href="https://orcid.org/0009-0009-0992-8474">
+              ORCID profile ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Darkelf Labs</p>
+
+          <h2>
+            Built with curiosity.<br>
+            Focused on privacy.
+          </h2>
+
+          <p>
+            Independent browser projects with different native
+            foundations. Current downloads, platform details and
+            release notes live in the official Darkelf portal.
+          </p>
+        </div>
+
+        <div class="projects">
+          <article class="project">
+            <img
+              class="project-logo"
+              src="Images/darkelf-labs.png"
+              width="900"
+              height="900"
+              loading="lazy"
+              alt="Darkelf Labs green and purple shield emblem"
+            >
+
+            <p class="tag">SHADOW / QT WEBENGINE</p>
+            <h3>Darkelf Shadow</h3>
+
+            <p>
+              A browser combining network filtering, local
+              MiniAI analysis and Smart Canvas protection.
+              Available through Python/PyPI and as a native
+              macOS ARM64 app.
+            </p>
+
+            <a href="https://github.com/Darkelf-Labs/Darkelf-Shadow-CE">
+              Explore Shadow source ↗
+            </a>
+          </article>
+
+          <article class="project cocoa">
+            <p class="tag">COCOA / NATIVE MACOS</p>
+            <h3>Darkelf Cocoa</h3>
+
+            <p>
+              The Cocoa side of the Darkelf browser ecosystem.
+              Explore its native macOS approach, supported
+              features and current release information through
+              Darkelf Labs.
+            </p>
+
+            <div class="actions">
+              <a class="button" href="https://darkelfbrowser.com/">
+                Visit the browser portal ↗
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <p class="project-foot">
+          <a href="https://github.com/Darkelf-Labs">
+            All Darkelf Labs repositories ↗
+          </a>
+
+          <span aria-hidden="true"> · </span>
+
+          <a href="https://github.com/Darkelf2024">
+            My developer profile ↗
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section about" id="faq">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Before we begin</p>
+          <h2>A few useful answers.</h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>How do I request a consultation?</summary>
+
+            <p>
+              Email a short description of your project,
+              your goals and any deadline. We can discuss
+              the scope, deliverables, availability and
+              fees before work begins.
+            </p>
+          </details>
+
+          <details>
+            <summary>Do you offer online tutoring?</summary>
+
+            <p>
+              Online sessions use Microsoft Teams or Zoom.
+              Contact me with your preferred dates, time zone
+              and learning goals. Scheduling, materials and
+              payment arrangements can be discussed directly.
+            </p>
+          </details>
+
+          <details>
+            <summary>How are scope and fees agreed?</summary>
+
+            <p>
+              Describe the work, expected output and timeline
+              in your inquiry. Scope, availability, fees and
+              applicable terms are discussed directly before
+              work begins.
+            </p>
+          </details>
+
+          <details>
+            <summary>Where can I download Darkelf browsers?</summary>
+
+            <p>
+              Visit
+              <a href="https://darkelfbrowser.com/">
+                darkelfbrowser.com
+              </a>
+              for downloads and release notes.
+              Distribution-specific capabilities and privacy
+              behavior are documented in the relevant
+              project repository.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap contact-box">
+        <p class="eyebrow">Start a conversation</p>
+        <h2>What are you working on?</h2>
+
+        <p>
+          Send the question, the context and the outcome you
+          have in mind. For tutoring, include your time zone
+          and preferred schedule.
+        </p>
+
+        <div class="actions">
+          <a
+            class="button primary"
+            href="mailto:kjm489@km-consultant.pro"
+          >
+            Email Dr. Moore ↗
+          </a>
+
+          <a class="button" href="https://wa.me/16513094187">
+            WhatsApp ↗
+          </a>
+        </div>
+
+        <div class="contact-links">
+          <a href="https://orcid.org/0009-0009-0992-8474">
+            ORCID
+          </a>
+
+          <a href="https://github.com/Darkelf2024">
+            GitHub
+          </a>
+
+          <a href="https://github.com/Darkelf-Labs">
+            Darkelf Labs
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <span>
+        © 2026 Dr. Kevin Moore · Consulting &amp; Research
+      </span>
+
+      <span>
+        <a href="privacy.html">Website privacy</a>
+
+        <span aria-hidden="true"> · </span>
+
+        <a href="https://github.com/Kjm489/Kjm489.github.io">
+          Source
+        </a>
+      </span>
+    </div>
   </footer>
-
 </body>
 </html>
