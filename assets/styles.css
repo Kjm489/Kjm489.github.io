@@ -378,8 +378,10 @@ section.section {
 }
 
 .browser-product__icon svg {
+  display: block;
   width: 32px;
   height: 32px;
+  flex-shrink: 0;
   filter: drop-shadow(0 0 9px #16d7e544);
 }
 
@@ -447,7 +449,8 @@ section.section {
 }
 
 .browser-product__download svg {
-  flex-shrink: 0;
+  display: block;
+  flex: 0 0 24px;
   width: 24px;
   height: 24px;
   color: #16d7e5;
